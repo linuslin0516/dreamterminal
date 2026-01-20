@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <canvas class="matrix-bg" id="matrix"></canvas>
@@ -15,16 +15,16 @@
     <div class="container">
         <!-- Header -->
         <header>
-            <h1><a href="index.html" style="color: inherit; text-decoration: none;">DREAM_TERMINAL<span class="cursor"></span></a></h1>
+            <h1><a href="/" style="color: inherit; text-decoration: none;">DREAM_TERMINAL<span class="cursor"></span></a></h1>
             <p class="subtitle">⟨ ANONYMOUS DREAM ARCHIVE ⟩</p>
         </header>
 
         <!-- Navigation -->
         <nav>
-            <a href="index.html">HOME</a>
-            <a href="archive.html" class="active">DREAM ARCHIVE</a>
-            <a href="submit.html">SUBMIT DREAM</a>
-            <a href="about.html">ABOUT</a>
+            <a href="/">HOME</a>
+            <a href="/archive" class="active">DREAM ARCHIVE</a>
+            <a href="/submit">SUBMIT DREAM</a>
+            <a href="/about">ABOUT</a>
         </nav>
 
         <!-- Search/Filter Section -->
@@ -40,9 +40,9 @@
                 </div>
                 <div class="terminal-content">
                     <div class="search-bar">
-                        <input 
-                            type="text" 
-                            id="searchInput" 
+                        <input
+                            type="text"
+                            id="searchInput"
                             placeholder="> Search dreams by keywords, symbols, emotions..."
                         >
                     </div>
@@ -110,8 +110,8 @@
         </footer>
     </div>
 
-    <script src="matrix.js"></script>
-    <script src="dreams-data.js"></script>
+    <script src="/matrix.js"></script>
+    <script src="/dreams-data.js"></script>
     <script>
         let filteredDreams = [...dreamsData];
 
@@ -119,7 +119,7 @@
         function loadDreams(dreams = dreamsData) {
             const grid = document.getElementById('dreamGrid');
             const noResults = document.getElementById('noResults');
-            
+
             grid.innerHTML = '';
 
             if (dreams.length === 0) {
@@ -132,8 +132,8 @@
             dreams.forEach(dream => {
                 const card = document.createElement('div');
                 card.className = 'dream-card';
-                
-                const tagsHTML = dream.tags.map(tag => 
+
+                const tagsHTML = dream.tags.map(tag =>
                     `<span class="tag">${tag}</span>`
                 ).join('');
 
@@ -143,7 +143,7 @@
                     <div class="dream-tags">${tagsHTML}</div>
                 `;
 
-                card.onclick = () => window.location.href = `dream.html?id=${dream.id}`;
+                card.onclick = () => window.location.href = `/dream/${dream.id}`;
 
                 grid.appendChild(card);
             });
@@ -161,7 +161,7 @@
         const searchInput = document.getElementById('searchInput');
         searchInput.addEventListener('input', function() {
             const query = this.value.toLowerCase();
-            
+
             if (query === '') {
                 loadDreams(dreamsData);
                 return;
@@ -180,12 +180,12 @@
         filterRadios.forEach(radio => {
             radio.addEventListener('change', function() {
                 const filter = this.value;
-                
+
                 if (filter === 'all') {
                     loadDreams(dreamsData);
                     searchInput.value = '';
                 } else {
-                    const filtered = dreamsData.filter(dream => 
+                    const filtered = dreamsData.filter(dream =>
                         dream.tags.includes(filter)
                     );
                     loadDreams(filtered);

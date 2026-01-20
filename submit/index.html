@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <canvas class="matrix-bg" id="matrix"></canvas>
@@ -15,16 +15,16 @@
     <div class="container">
         <!-- Header -->
         <header>
-            <h1><a href="index.html" style="color: inherit; text-decoration: none;">DREAM_TERMINAL<span class="cursor"></span></a></h1>
+            <h1><a href="/" style="color: inherit; text-decoration: none;">DREAM_TERMINAL<span class="cursor"></span></a></h1>
             <p class="subtitle">⟨ ANONYMOUS DREAM ARCHIVE ⟩</p>
         </header>
 
         <!-- Navigation -->
         <nav>
-            <a href="index.html">HOME</a>
-            <a href="archive.html">DREAM ARCHIVE</a>
-            <a href="submit.html" class="active">SUBMIT DREAM</a>
-            <a href="about.html">ABOUT</a>
+            <a href="/">HOME</a>
+            <a href="/archive">DREAM ARCHIVE</a>
+            <a href="/submit" class="active">SUBMIT DREAM</a>
+            <a href="/about">ABOUT</a>
         </nav>
 
         <!-- Submit Section -->
@@ -50,10 +50,10 @@
 
                     <!-- NETLIFY FORM VERSION -->
                     <!-- To use: Deploy on Netlify, form submissions will appear in your Netlify dashboard -->
-                    <form 
-                        id="dreamForm" 
-                        name="dreams" 
-                        method="POST" 
+                    <form
+                        id="dreamForm"
+                        name="dreams"
+                        method="POST"
                         data-netlify="true"
                         netlify-honeypot="bot-field"
                     >
@@ -65,9 +65,9 @@
 
                         <div class="form-group">
                             <label for="dreamContent">> DESCRIBE YOUR DREAM (REQUIRED):</label>
-                            <textarea 
-                                id="dreamContent" 
-                                name="dreamContent" 
+                            <textarea
+                                id="dreamContent"
+                                name="dreamContent"
                                 placeholder="Last night I dreamed of..."
                                 required
                                 minlength="20"
@@ -97,10 +97,10 @@
 
                         <div class="form-group">
                             <label for="symbols">> KEY SYMBOLS (OPTIONAL, COMMA SEPARATED):</label>
-                            <input 
-                                type="text" 
-                                id="symbols" 
-                                name="symbols" 
+                            <input
+                                type="text"
+                                id="symbols"
+                                name="symbols"
                                 placeholder="water, doors, eyes, falling, flying..."
                             >
                             <div class="hint">Examples: water, mirror, falling, childhood home, stranger, ocean, stairs, animals</div>
@@ -136,8 +136,8 @@
                         <p>Your dream has been preserved in the void.</p>
                         <p>It is now part of the collective unconscious.</p>
                         <p style="margin-top: 30px;">
-                            <a href="archive.html" class="cta-button">[ VIEW ARCHIVE ]</a>
-                            <a href="submit.html" class="cta-button" style="margin-left: 20px;">[ SUBMIT ANOTHER ]</a>
+                            <a href="/archive" class="cta-button">[ VIEW ARCHIVE ]</a>
+                            <a href="/submit" class="cta-button" style="margin-left: 20px;">[ SUBMIT ANOTHER ]</a>
                         </p>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     <p>• Note recurring symbols or unusual elements</p>
                     <p>• Don't interpret - just describe what happened</p>
                     <p>• There are no wrong dreams to submit</p>
-                    
+
                     <h3 style="margin-top: 30px;">>> EXAMPLES OF GOOD SUBMISSIONS:</h3>
                     <p class="example">"I'm in my childhood home but all the doors lead to the ocean. I can hear my name in the waves but I can't see who's calling."</p>
                     <p class="example">"I'm at a party where everyone is wearing masks of my face. When I try to leave, I realize I'm also wearing a mask."</p>
@@ -182,7 +182,7 @@
         <p id="notificationText"></p>
     </div>
 
-    <script src="matrix.js"></script>
+    <script src="/matrix.js"></script>
     <script>
         const form = document.getElementById('dreamForm');
         const loading = document.getElementById('loading');
@@ -201,10 +201,10 @@
             // Just show loading state
             loading.classList.add('active');
             form.style.display = 'none';
-            
+
             // Generate dream ID
             const dreamId = 'DRM-' + String(Math.floor(Math.random() * 9999)).padStart(4, '0');
-            
+
             // Note: With Netlify forms, the page will redirect after submission
             // If you want to show success message without redirect, you'll need
             // to use AJAX submission (see alternative version below)
@@ -215,29 +215,29 @@
         /*
         form.addEventListener('submit', async function(e) {
             e.preventDefault();
-            
+
             loading.classList.add('active');
             form.style.display = 'none';
-            
+
             const formData = new FormData(form);
-            
+
             try {
                 await fetch('/', {
                     method: 'POST',
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     body: new URLSearchParams(formData).toString()
                 });
-                
+
                 // Generate dream ID
                 const dreamId = 'DRM-' + String(Math.floor(Math.random() * 9999)).padStart(4, '0');
                 document.getElementById('generatedId').textContent = dreamId;
-                
+
                 loading.classList.remove('active');
                 successMessage.classList.add('active');
-                
+
                 // Reset form
                 form.reset();
-                
+
             } catch (error) {
                 loading.classList.remove('active');
                 form.style.display = 'block';
@@ -249,10 +249,10 @@
         function showNotification(message) {
             const notification = document.getElementById('notification');
             const notificationText = document.getElementById('notificationText');
-            
+
             notificationText.textContent = message;
             notification.classList.add('show');
-            
+
             setTimeout(() => {
                 notification.classList.remove('show');
             }, 4000);
