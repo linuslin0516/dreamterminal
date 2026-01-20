@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Archive - DREAM_TERMINAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas class="matrix-bg" id="matrix"></canvas>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1><a href="index.html" style="color: inherit; text-decoration: none;">DREAM_TERMINAL<span class="cursor"></span></a></h1>
+            <p class="subtitle">⟨ ANONYMOUS DREAM ARCHIVE ⟩</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="archive.html" class="active">DREAM ARCHIVE</a>
+            <a href="submit.html">SUBMIT DREAM</a>
+            <a href="about.html">ABOUT</a>
+        </nav>
+
+        <!-- Search/Filter Section -->
+        <section>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-title">⟨ SEARCH.EXE ⟩</span>
+                    <div class="terminal-buttons">
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                    </div>
+                </div>
+                <div class="terminal-content">
+                    <div class="search-bar">
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            placeholder="> Search dreams by keywords, symbols, emotions..."
+                        >
+                    </div>
+                    <div class="filter-options">
+                        <label>
+                            <input type="radio" name="filter" value="all" checked> ALL DREAMS
+                        </label>
+                        <label>
+                            <input type="radio" name="filter" value="water"> WATER
+                        </label>
+                        <label>
+                            <input type="radio" name="filter" value="falling"> FALLING
+                        </label>
+                        <label>
+                            <input type="radio" name="filter" value="mirror"> MIRRORS
+                        </label>
+                        <label>
+                            <input type="radio" name="filter" value="door"> DOORS
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Archive Stats -->
+        <section class="archive-stats">
+            <div class="stat-inline">
+                <span class="stat-label">TOTAL ARCHIVED:</span>
+                <span class="stat-value" id="totalCount">0</span>
+            </div>
+            <div class="stat-inline">
+                <span class="stat-label">SHOWING:</span>
+                <span class="stat-value" id="showingCount">0</span>
+            </div>
+        </section>
+
+        <!-- Dreams Archive Grid -->
+        <section>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-title">⟨ ARCHIVE.DB - ALL DREAMS ⟩</span>
+                    <div class="terminal-buttons">
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                    </div>
+                </div>
+
+                <div class="dream-grid" id="dreamGrid">
+                    <!-- Dreams will be loaded here -->
+                </div>
+
+                <div id="noResults" class="no-results" style="display: none;">
+                    <p>> NO DREAMS MATCH YOUR SEARCH</p>
+                    <p>The void is silent...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>⟨ DREAM_TERMINAL v0.1 ⟩</p>
+            <p>IN DREAMS, ALL REALITIES ARE POSSIBLE</p>
+            <p style="margin-top: 20px; opacity: 0.5;">[ THE ARCHIVE NEVER SLEEPS ]</p>
+        </footer>
+    </div>
+
+    <script src="matrix.js"></script>
+    <script src="dreams-data.js"></script>
+    <script>
+        let filteredDreams = [...dreamsData];
+
+        // Load all dreams
+        function loadDreams(dreams = dreamsData) {
+            const grid = document.getElementById('dreamGrid');
+            const noResults = document.getElementById('noResults');
+            
+            grid.innerHTML = '';
+
+            if (dreams.length === 0) {
+                noResults.style.display = 'block';
+                return;
+            } else {
+                noResults.style.display = 'none';
+            }
+
+            dreams.forEach(dream => {
+                const card = document.createElement('div');
+                card.className = 'dream-card';
+                
+                const tagsHTML = dream.tags.map(tag => 
+                    `<span class="tag">${tag}</span>`
+                ).join('');
+
+                card.innerHTML = `
+                    <div class="dream-id">${dream.id}</div>
+                    <div class="dream-content">${dream.content}</div>
+                    <div class="dream-tags">${tagsHTML}</div>
+                `;
+
+                card.onclick = () => window.location.href = `dream.html?id=${dream.id}`;
+
+                grid.appendChild(card);
+            });
+
+            updateStats(dreams.length);
+        }
+
+        // Update stats
+        function updateStats(showingCount) {
+            document.getElementById('totalCount').textContent = dreamsData.length;
+            document.getElementById('showingCount').textContent = showingCount;
+        }
+
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            
+            if (query === '') {
+                loadDreams(dreamsData);
+                return;
+            }
+
+            const filtered = dreamsData.filter(dream => {
+                return dream.content.toLowerCase().includes(query) ||
+                       dream.tags.some(tag => tag.toLowerCase().includes(query));
+            });
+
+            loadDreams(filtered);
+        });
+
+        // Filter by tag
+        const filterRadios = document.querySelectorAll('input[name="filter"]');
+        filterRadios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                const filter = this.value;
+                
+                if (filter === 'all') {
+                    loadDreams(dreamsData);
+                    searchInput.value = '';
+                } else {
+                    const filtered = dreamsData.filter(dream => 
+                        dream.tags.includes(filter)
+                    );
+                    loadDreams(filtered);
+                    searchInput.value = '';
+                }
+            });
+        });
+
+        // Initialize
+        loadDreams();
+    </script>
+</body>
+</html>

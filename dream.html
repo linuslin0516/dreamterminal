@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Details - DREAM_TERMINAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas class="matrix-bg" id="matrix"></canvas>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1><a href="index.html" style="color: inherit; text-decoration: none;">DREAM_TERMINAL<span class="cursor"></span></a></h1>
+            <p class="subtitle">⟨ ANONYMOUS DREAM ARCHIVE ⟩</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="archive.html">DREAM ARCHIVE</a>
+            <a href="submit.html">SUBMIT DREAM</a>
+            <a href="about.html">ABOUT</a>
+        </nav>
+
+        <!-- Dream Detail Section -->
+        <section>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-title" id="dreamTitle">⟨ LOADING... ⟩</span>
+                    <div class="terminal-buttons">
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                    </div>
+                </div>
+                <div class="terminal-content dream-detail" id="dreamDetail">
+                    <!-- Dream content will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Similar Dreams Section -->
+        <section id="similarSection" style="display: none;">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-title">⟨ SIMILAR_DREAMS.DB ⟩</span>
+                    <div class="terminal-buttons">
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                    </div>
+                </div>
+                <div class="dream-grid" id="similarDreams">
+                    <!-- Similar dreams will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>⟨ DREAM_TERMINAL v0.1 ⟩</p>
+            <p>IN DREAMS, ALL REALITIES ARE POSSIBLE</p>
+            <p style="margin-top: 20px; opacity: 0.5;">[ THE ARCHIVE NEVER SLEEPS ]</p>
+        </footer>
+    </div>
+
+    <script src="matrix.js"></script>
+    <script src="dreams-data.js"></script>
+    <script>
+        // Get dream ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const dreamId = urlParams.get('id');
+
+        // Load dream details
+        function loadDreamDetail() {
+            const dream = dreamsData.find(d => d.id === dreamId);
+            
+            if (!dream) {
+                document.getElementById('dreamDetail').innerHTML = `
+                    <p class="error-message">> ERROR: DREAM NOT FOUND</p>
+                    <p>The requested dream does not exist in the archive.</p>
+                    <p style="margin-top: 30px;">
+                        <a href="archive.html" class="cta-button">[ RETURN TO ARCHIVE ]</a>
+                    </p>
+                `;
+                return;
+            }
+
+            // Update title
+            document.getElementById('dreamTitle').textContent = `⟨ ${dream.id} ⟩`;
+            document.title = `${dream.id} - DREAM_TERMINAL`;
+
+            // Create tags HTML
+            const tagsHTML = dream.tags.map(tag => 
+                `<span class="tag-large">${tag}</span>`
+            ).join('');
+
+            // Display dream
+            const detailHTML = `
+                <div class="dream-id-large">${dream.id}</div>
+                <div class="dream-metadata">
+                    <span>⟨ ARCHIVED: ${dream.date || 'UNKNOWN'} ⟩</span>
+                </div>
+                <div class="dream-content-large">
+                    ${dream.content}
+                </div>
+                <div class="dream-tags-section">
+                    <p class="section-label">> SYMBOLS DETECTED:</p>
+                    <div class="dream-tags-large">
+                        ${tagsHTML}
+                    </div>
+                </div>
+                ${dream.interpretation ? `
+                    <div class="dream-interpretation">
+                        <p class="section-label">> INTERPRETATION:</p>
+                        <p>${dream.interpretation}</p>
+                    </div>
+                ` : ''}
+                <div class="dream-actions">
+                    <a href="archive.html" class="cta-button">[ BACK TO ARCHIVE ]</a>
+                    <button onclick="copyDreamId('${dream.id}')" class="cta-button">[ COPY DREAM ID ]</button>
+                </div>
+            `;
+
+            document.getElementById('dreamDetail').innerHTML = detailHTML;
+
+            // Load similar dreams
+            loadSimilarDreams(dream);
+        }
+
+        // Load similar dreams (same tags)
+        function loadSimilarDreams(currentDream) {
+            const similar = dreamsData.filter(d => 
+                d.id !== currentDream.id && 
+                d.tags.some(tag => currentDream.tags.includes(tag))
+            ).slice(0, 3);
+
+            if (similar.length === 0) return;
+
+            document.getElementById('similarSection').style.display = 'block';
+            const grid = document.getElementById('similarDreams');
+
+            similar.forEach(dream => {
+                const card = document.createElement('div');
+                card.className = 'dream-card';
+                
+                const tagsHTML = dream.tags.map(tag => 
+                    `<span class="tag">${tag}</span>`
+                ).join('');
+
+                card.innerHTML = `
+                    <div class="dream-id">${dream.id}</div>
+                    <div class="dream-content">${dream.content}</div>
+                    <div class="dream-tags">${tagsHTML}</div>
+                `;
+
+                card.onclick = () => {
+                    window.location.href = `dream.html?id=${dream.id}`;
+                };
+
+                grid.appendChild(card);
+            });
+        }
+
+        // Copy dream ID to clipboard
+        function copyDreamId(id) {
+            navigator.clipboard.writeText(id).then(() => {
+                showNotification(`COPIED: ${id}`);
+            });
+        }
+
+        function showNotification(message) {
+            const notif = document.createElement('div');
+            notif.className = 'notification show';
+            notif.textContent = message;
+            notif.style.position = 'fixed';
+            notif.style.top = '20px';
+            notif.style.right = '20px';
+            notif.style.zIndex = '10000';
+            document.body.appendChild(notif);
+
+            setTimeout(() => {
+                notif.classList.remove('show');
+                setTimeout(() => notif.remove(), 500);
+            }, 2000);
+        }
+
+        // Initialize
+        loadDreamDetail();
+    </script>
+</body>
+</html>
