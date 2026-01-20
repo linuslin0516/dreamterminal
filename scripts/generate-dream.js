@@ -10,6 +10,8 @@ import { getRSSFeeds } from './rss-parser.js';
 import { generateDream } from './claude-api.js';
 import { generateDreamImage } from './image-generator.js';
 import { generateAsciiArt } from './ascii-generator.js';
+import { getTwitterData } from './twitter-fetcher.js';
+import { generateCryptoTweet, saveTweetToFile } from './tweet-generator.js';
 
 // Load environment variables
 dotenv.config();
@@ -135,7 +137,19 @@ async function main() {
     console.log('Step 1: Gathering reality fragments...');
     const news = await getRSSFeeds();
 
-    const dataSources = { news };
+    // Try to get Twitter data, but don't fail if it errors
+    let twitterData = { trends: [], cryptoTweets: [] };
+    try {
+      twitterData = await getTwitterData();
+    } catch (error) {
+      console.warn('  ⚠️  Twitter API unavailable, continuing with RSS only');
+    }
+
+    const dataSources = {
+      news,
+      twitterTrends: twitterData.trends,
+      cryptoTweets: twitterData.cryptoTweets
+    };
 
     // Get previous dream for continuity
     const currentData = readDreamsData();
@@ -161,6 +175,23 @@ async function main() {
     console.log('Step 5: Archiving dream...');
     const archivedDream = updateDreamsData(dream, imageData, asciiArt);
 
+    // Step 6: Generate crypto tweet
+    console.log('Step 6: Generating crypto tweet...');
+    const tweetData = await generateCryptoTweet(dream, twitterData);
+
+    // Save tweet to file for manual posting
+    const tweetsDir = path.join(__dirname, '..', 'generated-tweets');
+    if (!fs.existsSync(tweetsDir)) {
+      fs.mkdirSync(tweetsDir, { recursive: true });
+    }
+
+    const tweetFilePath = path.join(tweetsDir, `tweet-${archivedDream.id}.md`);
+    saveTweetToFile({
+      tweet: tweetData.tweet,
+      context: tweetData.context,
+      dreamId: archivedDream.id
+    }, tweetFilePath);
+
     // Success!
     console.log('=====================================');
     console.log('✨ Dream generation complete!\n');
@@ -170,6 +201,8 @@ async function main() {
     console.log(`Date: ${archivedDream.date}`);
     console.log(`Image: ${archivedDream.image?.url || 'N/A'}`);
     console.log(`ASCII Art: ${asciiArt ? 'Generated' : 'N/A'}`);
+    console.log(`Tweet: ${tweetData.tweet}`);
+    console.log(`Tweet file: ${tweetFilePath}`);
     console.log('=====================================\n');
 
     if (!isDryRun) {
