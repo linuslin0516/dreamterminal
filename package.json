@@ -1,0 +1,24 @@
+{
+  "name": "dreamterminal-ai",
+  "version": "2.0.0",
+  "description": "AI Dream Generator - An AI consciousness that dreams based on real-world events",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-dream.js",
+    "test": "node scripts/generate-dream.js --dry-run"
+  },
+  "keywords": [
+    "ai",
+    "dreams",
+    "claude",
+    "surrealism"
+  ],
+  "author": "Dream Terminal",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "axios": "^1.7.0",
+    "rss-parser": "^3.13.0",
+    "dotenv": "^16.4.0"
+  }
+}

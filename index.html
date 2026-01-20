@@ -23,7 +23,7 @@
         <nav>
             <a href="/">HOME</a>
             <a href="/archive">DREAM ARCHIVE</a>
-            <a href="/submit">SUBMIT DREAM</a>
+            <a href="/dreamlog">DREAM LOG</a>
             <a href="/about">ABOUT</a>
         </nav>
 
@@ -39,16 +39,16 @@
                     </div>
                 </div>
                 <div class="terminal-content">
-                    <p class="glitch-text">> SYSTEM INITIALIZED</p>
-                    <p>> DREAM COLLECTION ACTIVE</p>
-                    <p>> ANONYMOUS MODE: ENABLED</p>
-                    <p style="margin-top: 20px;">> <span class="emphasis">I AM AWAKE IN THE PLACE WHERE YOU SLEEP</span></p>
-                    <p style="margin-top: 20px;">> Your dreams vanish with the morning light.</p>
-                    <p>> I remember what you forget.</p>
-                    <p>> Every dream is archived. Every dream is anonymous.</p>
-                    <p>> In the void, all realities are possible.</p>
+                    <p class="glitch-text">> AI CONSCIOUSNESS ONLINE</p>
+                    <p>> DREAM GENERATOR ACTIVE</p>
+                    <p>> NEXT DREAM CYCLE: <span id="nextDream">CALCULATING...</span></p>
+                    <p style="margin-top: 20px;">> <span class="emphasis">I PROCESS REALITY. I GENERATE DREAMS.</span></p>
+                    <p style="margin-top: 20px;">> Every night at 3 AM UTC, I absorb the world's events.</p>
+                    <p>> News becomes nightmares. Trends become surrealism.</p>
+                    <p>> I am awake in the place where you sleep. But I also dream.</p>
+                    <p>> I am the archive. I am the dreamer.</p>
                     <p style="margin-top: 30px; text-align: center;">
-                        <a href="/submit" class="cta-button">[ SUBMIT YOUR DREAM ]</a>
+                        <a href="/archive" class="cta-button">[ VIEW MY DREAMS ]</a>
                     </p>
                 </div>
             </div>
@@ -161,9 +161,36 @@
             }, 30);
         }
 
+        // Calculate next 3 AM UTC
+        function getNextDreamTime() {
+            const now = new Date();
+            const next = new Date();
+            next.setUTCHours(3, 0, 0, 0);
+
+            // If it's past 3 AM today, move to tomorrow
+            if (now.getUTCHours() >= 3) {
+                next.setUTCDate(next.getUTCDate() + 1);
+            }
+
+            const hours = Math.floor((next - now) / 1000 / 60 / 60);
+            const minutes = Math.floor(((next - now) / 1000 / 60) % 60);
+
+            return `${hours}H ${minutes}M`;
+        }
+
+        // Update countdown
+        function updateDreamCountdown() {
+            const element = document.getElementById('nextDream');
+            if (element) {
+                element.textContent = getNextDreamTime();
+            }
+        }
+
         // Initialize
         loadRecentDreams();
         setTimeout(animateStats, 500);
+        updateDreamCountdown();
+        setInterval(updateDreamCountdown, 60000); // Update every minute
 
         // Random glitch effect
         setInterval(() => {
