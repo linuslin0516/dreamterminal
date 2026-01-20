@@ -584,6 +584,21 @@ button:active,
     color: var(--primary);
 }
 
+.dream-context {
+    background: rgba(0, 255, 136, 0.05);
+    padding: 20px;
+    margin: 40px 0;
+    border: 1px solid var(--primary);
+    border-left: 4px solid var(--primary);
+}
+
+.context-text {
+    color: var(--light-gray);
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
 .dream-interpretation {
     background: rgba(255, 255, 255, 0.03);
     padding: 20px;

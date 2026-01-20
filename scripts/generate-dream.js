@@ -86,6 +86,9 @@ function updateDreamsData(newDream, imageData, asciiArt) {
     // Add ASCII art if available
     ...(asciiArt && { ascii_art: asciiArt }),
 
+    // Add dream context (what the AI "saw")
+    ...(newDream.dream_context && { dream_context: newDream.dream_context }),
+
     metadata: {
       inspiration: newDream.inspiration,
       generated_by: 'AI',
@@ -134,12 +137,15 @@ async function main() {
 
     const dataSources = { news };
 
-    // Step 2: Generate dream with Claude
+    // Get previous dream for continuity
+    const currentData = readDreamsData();
+    const previousDream = currentData.length > 0 ? currentData[currentData.length - 1] : null;
+
+    // Step 2: Generate dream with Claude (with continuity)
     console.log('Step 2: Processing through AI consciousness...');
-    const dream = await generateDream(dataSources);
+    const dream = await generateDream(dataSources, previousDream);
 
     // Get next dream ID early for image generation
-    const currentData = readDreamsData();
     const lastId = currentData[currentData.length - 1]?.id || 'DRM-0000';
     const dreamId = generateNextId(lastId);
 

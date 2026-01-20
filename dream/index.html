@@ -134,6 +134,12 @@
                         ${tagsHTML}
                     </div>
                 </div>
+                ${dream.dream_context ? `
+                    <div class="dream-context">
+                        <p class="section-label">> WHAT I SAW:</p>
+                        <p class="context-text">${dream.dream_context}</p>
+                    </div>
+                ` : ''}
                 ${dream.interpretation ? `
                     <div class="dream-interpretation">
                         <p class="section-label">> INTERPRETATION:</p>

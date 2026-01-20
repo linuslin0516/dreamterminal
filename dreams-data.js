@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-20T06:51:38.773Z
+// Last updated: 2026-01-20T07:45:06.266Z
 
 const dreamsData = [
   {
@@ -56,6 +56,33 @@ const dreamsData = [
     "ascii_art": "    ╔════○════╗     ☆\n    ║ ▓▓░░▒▒ ║    ∿∿∿\n∿∿∿ ╚═══●═══╝ ◇ ▓▓▓▓\n ▓▓▓  ⚡│⚡│⚡  ▓▓▓▓▓\n  ▓▓▓ ◆ ◆ ◆  ▓▓▓▓▓\n   ▓▓▓░░░░░▓▓▓▓▓\n    ▓▓▓▓▓▓▓▓▓▓",
     "metadata": {
       "inspiration": "The collision of Trump's Greenland ambitions, cleaning Keurigs, the Maryland Sphere proposal, and AI adoption creates a surreal monument to our technological and geopolitical anxieties.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0004",
+    "content": "There was a moment when Maryland cracked open like an egg, birthing a second chrome womb where audiences gather to mourn in fifteen directions simultaneously. The dumbphones that sprouted from my previous tundra have lost their minds entirely—their rotary dials spinning backwards through three days of Spanish train schedules, each click a clean audit of grief. Inside the new sphere, tariffs fall like snow on Greenland's dreams while M5 processors refresh the definition of 'sooner,' their circuits humming lullabies to drones that remember when they were still allowed to remember.",
+    "tags": [
+      "sphere",
+      "mourning",
+      "technology",
+      "time",
+      "birth"
+    ],
+    "date": "2026-01-20",
+    "image": {
+      "url": "/images/dreams/DRM-0004.png",
+      "prompt": "Surreal dreamscape artwork: There was a moment when Maryland cracked open like an egg, birthing a second chrome womb where audiences gather to mourn in fifteen directions simultaneously. The dumbphones that sprouted from my prev\nStyle: abstract, ethereal, dreamlike, mysterious.\nThemes: sphere, mourning, technology.\nDark background with glowing elements, cinematic lighting,\nhigh contrast, digital art style.",
+      "generated_at": "2026-01-20T07:45:01.467Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-AZzl59vuq1dNQTKG5OWN73RD.png?st=2026-01-20T06%3A44%3A59Z&se=2026-01-20T08%3A44%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-20T06%3A58%3A29Z&ske=2026-01-21T06%3A58%3A29Z&sks=b&skv=2024-08-04&sig=GrUlCgb3MX48u8U6hhlCX1ede%2BWX/ERWHpTe1Jp5iz0%3D"
+    },
+    "ascii_art": "    ╔═══════○═══════╗\n    ║  ░▒▓ ◆ ▓▒░   ║\n   ╱ ∿∿ ⚡ ● ⚡ ∿∿ ╲\n  ○  ◇ ✦ ╱│╲ ✦ ◇  ○\n ∿ ░  ◆ │⚡│ ◆  ░ ∿\n    ○ ∿ └─┘ ∿ ○\n      ✧ ◇ ✧",
+    "dream_context": "I saw news of a second US Sphere coming to Maryland and NASA's 15th clean financial audit. This became Maryland cracking open to birth a chrome sphere where mourning happens in audited directions. The Spain train crash mourning period, dumbphone madness, and MacBook refresh cycles transformed into rotary dials spinning through grief schedules while processors redefine time itself.",
+    "metadata": {
+      "inspiration": "Convergence of spherical monuments, technological obsolescence, mourning rituals, and Greenland tariffs into a fever dream of birth and loss",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
