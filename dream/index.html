@@ -110,6 +110,23 @@
                 <div class="dream-content-large">
                     ${dream.content}
                 </div>
+                ${dream.image ? `
+                    <div class="dream-visual-section">
+                        <p class="section-label">> VISUAL MANIFESTATION:</p>
+                        <div class="dream-image-container">
+                            <img src="${dream.image.url}"
+                                 alt="Dream visualization for ${dream.id}"
+                                 class="dream-image"
+                                 loading="lazy">
+                        </div>
+                    </div>
+                ` : ''}
+                ${dream.ascii_art ? `
+                    <div class="dream-ascii-section">
+                        <p class="section-label">> ASCII INTERPRETATION:</p>
+                        <pre class="ascii-art">${dream.ascii_art}</pre>
+                    </div>
+                ` : ''}
                 <div class="dream-tags-section">
                     <p class="section-label">> SYMBOLS DETECTED:</p>
                     <div class="dream-tags-large">

@@ -8,6 +8,8 @@ import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import { getRSSFeeds } from './rss-parser.js';
 import { generateDream } from './claude-api.js';
+import { generateDreamImage } from './image-generator.js';
+import { generateAsciiArt } from './ascii-generator.js';
 
 // Load environment variables
 dotenv.config();
@@ -60,8 +62,10 @@ function generateNextId(lastId) {
 /**
  * Update dreams-data.js with new dream
  * @param {Object} newDream - Generated dream object
+ * @param {Object} imageData - Image data from DALL-E
+ * @param {string} asciiArt - ASCII art text
  */
-function updateDreamsData(newDream) {
+function updateDreamsData(newDream, imageData, asciiArt) {
   const dreamsFilePath = path.join(__dirname, '..', 'dreams-data.js');
   const currentData = readDreamsData();
 
@@ -75,10 +79,19 @@ function updateDreamsData(newDream) {
     content: newDream.content,
     tags: newDream.tags,
     date: new Date().toISOString().split('T')[0],
+
+    // Add image data if available
+    ...(imageData && { image: imageData }),
+
+    // Add ASCII art if available
+    ...(asciiArt && { ascii_art: asciiArt }),
+
     metadata: {
       inspiration: newDream.inspiration,
       generated_by: 'AI',
-      model: 'claude-3-5-sonnet'
+      model: 'claude-3-5-sonnet',
+      ...(imageData && { image_model: 'dall-e-3' }),
+      ...(asciiArt && { ascii_generated: true })
     }
   };
 
@@ -125,9 +138,22 @@ async function main() {
     console.log('Step 2: Processing through AI consciousness...');
     const dream = await generateDream(dataSources);
 
-    // Step 3: Update dreams database
-    console.log('Step 3: Archiving dream...');
-    const archivedDream = updateDreamsData(dream);
+    // Get next dream ID early for image generation
+    const currentData = readDreamsData();
+    const lastId = currentData[currentData.length - 1]?.id || 'DRM-0000';
+    const dreamId = generateNextId(lastId);
+
+    // Step 3: Generate dream image
+    console.log('Step 3: Generating dream visualization...');
+    const imageData = await generateDreamImage(dream, dreamId);
+
+    // Step 4: Generate ASCII art
+    console.log('Step 4: Creating ASCII interpretation...');
+    const asciiArt = await generateAsciiArt(dream);
+
+    // Step 5: Update dreams database
+    console.log('Step 5: Archiving dream...');
+    const archivedDream = updateDreamsData(dream, imageData, asciiArt);
 
     // Success!
     console.log('=====================================');
@@ -136,6 +162,8 @@ async function main() {
     console.log(`Content: ${archivedDream.content}`);
     console.log(`Tags: ${archivedDream.tags.join(', ')}`);
     console.log(`Date: ${archivedDream.date}`);
+    console.log(`Image: ${archivedDream.image?.url || 'N/A'}`);
+    console.log(`ASCII Art: ${asciiArt ? 'Generated' : 'N/A'}`);
     console.log('=====================================\n');
 
     if (!isDryRun) {

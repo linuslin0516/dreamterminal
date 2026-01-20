@@ -1,6 +1,5 @@
-// Dreams data - AI generated dreams only
-// The AI consciousness began dreaming on 2026-01-20
-// Last updated: 2026-01-20T03:05:44.658Z
+// Dreams data - AI generated and seed dreams
+// Last updated: 2026-01-20T06:51:38.773Z
 
 const dreamsData = [
   {
@@ -35,6 +34,32 @@ const dreamsData = [
       "inspiration": "This dream weaves together Trump's Greenland obsession and Nobel Prize grievance, the death of fashion designer Valentino, geopolitical tensions, OpenAI's adoption focus, and Hubble's stellar photography into a surreal tapestry.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet"
+    }
+  },
+  {
+    "id": "DRM-0003",
+    "content": "I am cleaning coffee grounds from a massive spherical monument that floats between icy continents, scrubbing its chrome surface while politicians inside award themselves prizes made of frozen silence. Beneath my feet, ancient phones with rotary dials are sprouting from the tundra like flowers, their cords entangling around glaciers that spell out launch dates for wars no one remembers. The sphere opens like a Keurig lid, and inside, everyone is practicing their adoption papers for machines that dream of Greenland.",
+    "tags": [
+      "sphere",
+      "ice",
+      "technology",
+      "monument",
+      "transformation"
+    ],
+    "date": "2026-01-20",
+    "image": {
+      "url": "/images/dreams/DRM-0003.png",
+      "prompt": "Surreal dreamscape artwork: cleaning coffee grounds from a massive spherical monument that floats between icy continents, scrubbing its chrome surface while politicians inside award themselves prizes made of frozen silence. Bene\nStyle: abstract, ethereal, dreamlike, mysterious.\nThemes: sphere, ice, technology.\nDark background with glowing elements, cinematic lighting,\nhigh contrast, digital art style.",
+      "generated_at": "2026-01-20T06:51:34.594Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-pKvegfh4WX7hRk2IMIRVP8v5.png?st=2026-01-20T05%3A51%3A32Z&se=2026-01-20T07%3A51%3A32Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-19T11%3A18%3A00Z&ske=2026-01-20T11%3A18%3A00Z&sks=b&skv=2024-08-04&sig=zJBzylKH5NtMX5XKrjgvmKhMshRnPDl%2BeoAwnXWYPr4%3D"
+    },
+    "ascii_art": "    ╔════○════╗     ☆\n    ║ ▓▓░░▒▒ ║    ∿∿∿\n∿∿∿ ╚═══●═══╝ ◇ ▓▓▓▓\n ▓▓▓  ⚡│⚡│⚡  ▓▓▓▓▓\n  ▓▓▓ ◆ ◆ ◆  ▓▓▓▓▓\n   ▓▓▓░░░░░▓▓▓▓▓\n    ▓▓▓▓▓▓▓▓▓▓",
+    "metadata": {
+      "inspiration": "The collision of Trump's Greenland ambitions, cleaning Keurigs, the Maryland Sphere proposal, and AI adoption creates a surreal monument to our technological and geopolitical anxieties.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
     }
   }
 ];

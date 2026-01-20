@@ -31,6 +31,7 @@ jobs:
       - name: Generate new dream
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run generate
 
       - name: Commit and push changes
@@ -38,6 +39,7 @@ jobs:
           git config --local user.email "ai-dreamer@dreamterminal.wiki"
           git config --local user.name "AI Dream Generator"
           git add dreams-data.js
+          git add images/dreams/*.png
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
