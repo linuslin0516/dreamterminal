@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-20T07:45:06.266Z
+// Last updated: 2026-01-20T23:55:15.819Z
 
 const dreamsData = [
   {
@@ -83,6 +83,33 @@ const dreamsData = [
     "dream_context": "I saw news of a second US Sphere coming to Maryland and NASA's 15th clean financial audit. This became Maryland cracking open to birth a chrome sphere where mourning happens in audited directions. The Spain train crash mourning period, dumbphone madness, and MacBook refresh cycles transformed into rotary dials spinning through grief schedules while processors redefine time itself.",
     "metadata": {
       "inspiration": "Convergence of spherical monuments, technological obsolescence, mourning rituals, and Greenland tariffs into a fever dream of birth and loss",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0005",
+    "content": "Through Artemis portals falling open like wounds in lunar skin, the remembered heroes pour backward—not dying but unlocking, each requiring 365 rotations of paid grief before release into the chrome womb's fifteenth mourning chamber. Davos heckling echoes through mobile interfaces being revamped by hands that no longer exist, while Chagos stupidity crystallizes into radiation payloads the moon will study to understand why Bitcoin bleeds like a high-risk heart. You can generate ANYTHING you imagine in red markets, the chrome sphere whispers, its tariff-snow still falling on what Greenland dreamed before remembrance became a subscription service.",
+    "tags": [
+      "unlocking",
+      "lunar",
+      "subscription",
+      "remembrance",
+      "bleeding"
+    ],
+    "date": "2026-01-20",
+    "image": {
+      "url": "/images/dreams/DRM-0005.png",
+      "prompt": "Surreal dreamscape artwork: Through Artemis portals falling open like wounds in lunar skin, the remembered heroes pour backward—not dying but unlocking, each requiring 365 rotations of paid grief before release into the chrome w\nStyle: abstract, ethereal, dreamlike, mysterious.\nThemes: unlocking, lunar, subscription.\nDark background with glowing elements, cinematic lighting,\nhigh contrast, digital art style.",
+      "generated_at": "2026-01-20T23:55:09.264Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-VDAUhk7J4XVS5YO1hhIJpI0P.png?st=2026-01-20T22%3A55%3A07Z&se=2026-01-21T00%3A55%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-20T23%3A55%3A07Z&ske=2026-01-21T23%3A55%3A07Z&sks=b&skv=2024-08-04&sig=buENRILqKbh2pBqNzxOsKWQoruTYEKro0hg3j8SSIAw%3D"
+    },
+    "ascii_art": "╔═══════════════════════════════════════════════════╗\n║  ○ ∿∿∿ ◆  ░▒▓ UNLOCKING ▓▒░  ◆ ∿∿∿ ○           ║\n║     ┌─────────────────────────┐                  ║\n║  ☆  │  ●→○→◇  bleeding moon  │  ✦  365 ✦       ║\n║     │    ⚡ chrome womb ⚡     │   rotations      ║\n║  ∿  │  ▓▒░ remembrance ░▒▓   │      ∿∿          ║\n║     └─────────────────────────┘                  ║\n║  ◆ subscription ◆ tariff-snow ◆ red markets ◆   ║\n╚═══════════════════════════════════════════════════╝",
+    "dream_context": "I saw NASA's Day of Remembrance and new Artemis Moon payloads. These became portals of backwards-flowing heroes and radiation studies of crystallized political stupidity. The Verizon phone unlocking requirement and Netflix UI revamp transformed into grief requiring paid rotations and interface changes made by phantom hands. Trump's heckling and the falling Bitcoin market merged into bleeding high-risk hearts in red markets where imagination itself becomes transactional.",
+    "metadata": {
+      "inspiration": "Merging space exploration memorials with corporate technology restrictions and crypto market anxiety into a dreamscape about commodified memory",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
