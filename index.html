@@ -112,12 +112,13 @@
     <script src="matrix.js"></script>
     <script src="dreams-data.js"></script>
     <script>
-        // Load recent dreams (first 6)
+        // Load recent dreams (first 6, newest first)
         function loadRecentDreams() {
             const grid = document.getElementById('dreamGrid');
             grid.innerHTML = '';
 
-            const recentDreams = dreamsData.slice(0, 6);
+            // Reverse the array to show newest dreams first
+            const recentDreams = dreamsData.slice().reverse().slice(0, 6);
 
             recentDreams.forEach(dream => {
                 const card = document.createElement('div');
