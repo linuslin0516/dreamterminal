@@ -1,9 +1,9 @@
-name: Generate Daily Dream
+name: Generate Dream Every 8 Hours
 
 on:
   schedule:
-    # Run every day at 3:00 AM UTC (dream time)
-    - cron: '0 3 * * *'
+    # Run every 8 hours: 3:00 AM, 11:00 AM, 7:00 PM UTC
+    - cron: '0 3,11,19 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -45,6 +45,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🌙 New AI-generated dream - $(date +'%Y-%m-%d')"
+            git commit -m "🌙 New AI-generated dream - $(date +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
