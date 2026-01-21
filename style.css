@@ -851,3 +851,183 @@ footer {
         font-size: 12px;
     }
 }
+
+/* ============================================
+   DREAMCORE AESTHETIC ELEMENTS
+   ============================================ */
+
+/* Dreamcore text styling - liminal, nostalgic comments */
+.dreamcore-text {
+    font-family: 'VT323', monospace;
+    color: #b8b8ff;
+    text-shadow: 0 0 8px rgba(184, 184, 255, 0.3);
+    letter-spacing: 0.5px;
+    animation: dreamcore-flicker 4s infinite alternate;
+}
+
+@keyframes dreamcore-flicker {
+    0%, 100% { opacity: 0.7; }
+    25% { opacity: 0.5; }
+    50% { opacity: 0.8; }
+    75% { opacity: 0.6; }
+}
+
+/* VHS distortion effect on hover for dream cards */
+.dream-card {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.dream-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 2px,
+        rgba(255, 105, 180, 0.03) 2px,
+        rgba(255, 105, 180, 0.03) 4px
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.dream-card:hover::before {
+    opacity: 1;
+}
+
+/* Liminal space ambient glow */
+.terminal {
+    position: relative;
+}
+
+.terminal::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(184, 184, 255, 0.05) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+    z-index: -1;
+    animation: ambient-pulse 8s ease-in-out infinite;
+}
+
+@keyframes ambient-pulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.6; }
+}
+
+/* Nostalgic pastel accent colors */
+.emphasis {
+    color: #ffb8d1;
+    text-shadow: 0 0 10px rgba(255, 184, 209, 0.5);
+}
+
+/* Uncanny valley hover effect - things feel slightly wrong */
+.cta-button {
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow:
+        0 0 20px rgba(255, 255, 255, 0.3),
+        0 0 40px rgba(184, 184, 255, 0.2);
+    letter-spacing: 3px;
+}
+
+/* Dreamcore memory glitch - random subtle distortion */
+@keyframes memory-glitch {
+    0%, 100% {
+        transform: translate(0, 0);
+        filter: hue-rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, 0);
+        filter: hue-rotate(5deg);
+    }
+    20% {
+        transform: translate(1px, 1px);
+        filter: hue-rotate(-5deg);
+    }
+    30% {
+        transform: translate(0, -1px);
+        filter: hue-rotate(0deg);
+    }
+}
+
+/* Apply subtle glitch to random elements occasionally */
+.glitch-text {
+    animation: memory-glitch 0.3s ease-in-out;
+}
+
+/* Faded pastel terminal borders - dreamcore aesthetic */
+.terminal-header {
+    border-bottom: 1px solid rgba(184, 184, 255, 0.3);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Liminal space empty corridor feeling */
+.stats {
+    position: relative;
+}
+
+.stats::before {
+    content: '// You've been here before. Or have you?';
+    position: absolute;
+    top: -25px;
+    left: 0;
+    font-family: 'VT323', monospace;
+    font-size: 14px;
+    color: #b8b8ff;
+    opacity: 0.4;
+    animation: dreamcore-flicker 6s infinite;
+}
+
+/* Nostalgic CRT chromatic aberration */
+h1 {
+    position: relative;
+}
+
+h1::before,
+h1::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+h1:hover::before {
+    color: #ff00ff;
+    opacity: 0.1;
+    animation: chromatic-aberration-r 0.3s ease-in-out;
+}
+
+h1:hover::after {
+    color: #00ffff;
+    opacity: 0.1;
+    animation: chromatic-aberration-b 0.3s ease-in-out;
+}
+
+@keyframes chromatic-aberration-r {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-2px, 0); }
+}
+
+@keyframes chromatic-aberration-b {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(2px, 0); }
+}
