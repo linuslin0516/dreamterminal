@@ -145,9 +145,39 @@
             const totalDreams = dreamsData.length;
             animateNumber('totalDreams', totalDreams);
 
-            // Today's dreams (random for demo)
-            const todayDreams = Math.floor(Math.random() * 15) + 5;
+            // Today's dreams - count dreams from today
+            const today = new Date().toISOString().split('T')[0];
+            const todayDreams = dreamsData.filter(d => d.date === today).length;
             animateNumber('todayDreams', todayDreams);
+
+            // Most common tag
+            const mostCommonTag = getMostCommonTag();
+            document.getElementById('mostCommon').textContent = mostCommonTag.toUpperCase();
+        }
+
+        // Calculate most common tag across all dreams
+        function getMostCommonTag() {
+            const tagCounts = {};
+
+            // Count all tags
+            dreamsData.forEach(dream => {
+                dream.tags.forEach(tag => {
+                    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+                });
+            });
+
+            // Find most common
+            let maxCount = 0;
+            let mostCommon = 'VOID';
+
+            for (const [tag, count] of Object.entries(tagCounts)) {
+                if (count > maxCount) {
+                    maxCount = count;
+                    mostCommon = tag;
+                }
+            }
+
+            return mostCommon;
         }
 
         function animateNumber(elementId, target) {
