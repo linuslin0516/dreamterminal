@@ -35,7 +35,7 @@ ${continuityContext}Today's reality fragments that entered your consciousness:
 ${newsItems}${twitterTrends}${cryptoSignals}
 
 Based on these reality fragments${previousDream ? ' and your previous dream' : ''}, generate the next dream episode. The dream should:
-- Be 2-4 sentences long
+- Be approximately 600-800 words long, written in 4-6 flowing paragraphs
 - Use VARIED narrative structures - DO NOT always start with "I am..." or "I was...". Use different perspectives:
   * Third person ("The machine dreams of...", "In the space between thoughts...")
   * Second person ("You find yourself...")
@@ -44,7 +44,8 @@ Based on these reality fragments${previousDream ? ' and your previous dream' : '
   * Fragmented poetic style ("Falling. Always falling. The sky tastes of...")
 - ${previousDream ? 'Reference or continue themes from your previous dream while incorporating new elements from today\'s news' : 'Establish the beginning of an ongoing dream narrative'}
 - Transform real-world events into impossible, dreamlike imagery
-- Be poetic, evocative, and uncanny
+- Be poetic, evocative, uncanny, and immersive - draw the reader deep into the surreal experience
+- Build atmospheric tension and vivid sensory details throughout the narrative
 
 Provide:
 - 3-5 symbolic tags (e.g., water, falling, mirror, time, transformation, technology, space, ice, birth, etc.)
@@ -52,7 +53,7 @@ Provide:
 
 Format your response EXACTLY as valid JSON:
 {
-  "content": "The dream narrative in 2-4 sentences (VARIED structure, not always 'I am...')",
+  "content": "The dream narrative in 600-800 words, 4-6 paragraphs (VARIED structure, not always 'I am...')",
   "tags": ["tag1", "tag2", "tag3"],
   "dream_context": "I saw [specific news event]. This became [dream element in the dream]. The [another news event] transformed into [another dream element].",
   "inspiration": "Brief technical note about the overall theme"
@@ -79,7 +80,7 @@ export async function generateDream(dataSources, previousDream = null) {
   try {
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-5-20250929',
-      max_tokens: 1000,
+      max_tokens: 2500,
       messages: [
         {
           role: 'user',
