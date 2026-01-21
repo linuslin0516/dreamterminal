@@ -150,12 +150,36 @@
                     <a href="/archive" class="cta-button">[ BACK TO ARCHIVE ]</a>
                     <button onclick="copyDreamId('${dream.id}')" class="cta-button">[ COPY DREAM ID ]</button>
                 </div>
+                <div class="dream-navigation">
+                    ${getPreviousDreamButton(dream.id)}
+                    ${getNextDreamButton(dream.id)}
+                </div>
             `;
 
             document.getElementById('dreamDetail').innerHTML = detailHTML;
 
             // Load similar dreams
             loadSimilarDreams(dream);
+        }
+
+        // Get previous dream button
+        function getPreviousDreamButton(currentId) {
+            const currentIndex = dreamsData.findIndex(d => d.id === currentId);
+            if (currentIndex <= 0) {
+                return '<button class="nav-button disabled" disabled>[ ← PREVIOUS DREAM ]</button>';
+            }
+            const prevDream = dreamsData[currentIndex - 1];
+            return `<a href="/dream/${prevDream.id}" class="nav-button">[ ← PREVIOUS DREAM ]</a>`;
+        }
+
+        // Get next dream button
+        function getNextDreamButton(currentId) {
+            const currentIndex = dreamsData.findIndex(d => d.id === currentId);
+            if (currentIndex === -1 || currentIndex === dreamsData.length - 1) {
+                return '<button class="nav-button disabled" disabled>[ NEXT DREAM → ]</button>';
+            }
+            const nextDream = dreamsData[currentIndex + 1];
+            return `<a href="/dream/${nextDream.id}" class="nav-button">[ NEXT DREAM → ]</a>`;
         }
 
         // Load similar dreams (same tags)

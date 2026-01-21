@@ -58,7 +58,7 @@ export async function getCryptoTweets(query = 'Bitcoin OR Ethereum OR crypto OR 
   console.log('💰 Searching crypto tweets...');
 
   try {
-    const response = await axios.get(`${API_BASE_URL}/twitter/tweet_advanced_search`, {
+    const response = await axios.get(`${API_BASE_URL}/twitter/tweet/advanced_search`, {
       params: {
         query: query,
         queryType: queryType,
@@ -69,10 +69,10 @@ export async function getCryptoTweets(query = 'Bitcoin OR Ethereum OR crypto OR 
       }
     });
 
-    if (response.data.status === 'success' && response.data.tweets) {
+    if (response.data.tweets && Array.isArray(response.data.tweets)) {
       const tweets = response.data.tweets
         .slice(0, 5) // Get top 5 crypto tweets
-        .map(tweet => tweet.text || tweet.full_text || '');
+        .map(tweet => tweet.text || '');
 
       console.log(`  ✓ Fetched ${tweets.length} crypto tweets`);
 
@@ -83,6 +83,10 @@ export async function getCryptoTweets(query = 'Bitcoin OR Ethereum OR crypto OR 
     }
   } catch (error) {
     console.error('  ✗ Failed to fetch crypto tweets:', error.message);
+    if (error.response) {
+      console.error(`  Response status: ${error.response.status}`);
+      console.error(`  Response data:`, error.response.data);
+    }
     return [];
   }
 }

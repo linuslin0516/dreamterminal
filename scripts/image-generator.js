@@ -27,11 +27,12 @@ function buildImagePrompt(dream) {
 
   const tagContext = dream.tags.slice(0, 3).join(', ');
 
-  return `Surreal dreamscape artwork: ${visualElements}
-Style: abstract, ethereal, dreamlike, mysterious.
+  return `Dreamcore aesthetic artwork: ${visualElements}
+Style: liminal spaces, nostalgic, uncanny, dreamcore, weirdcore, unsettling yet familiar.
+Visual elements: empty spaces, dim fluorescent lighting, 90s-2000s nostalgia, soft focus, VHS quality, faded colors, pastel tones, liminal architecture, uncanny valley, nostalgic artifacts.
+Mood: eerie calm, childhood memories mixed with unease, familiar yet wrong.
 Themes: ${tagContext}.
-Dark background with glowing elements, cinematic lighting,
-high contrast, digital art style.`;
+Dreamcore/weirdcore aesthetic with nostalgic undertones.`;
 }
 
 /**

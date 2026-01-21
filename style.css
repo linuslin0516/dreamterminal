@@ -613,6 +613,55 @@ button:active,
     margin-top: 40px;
 }
 
+/* Dream Navigation Buttons */
+.dream-navigation {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid var(--gray);
+}
+
+.nav-button {
+    flex: 1;
+    min-width: 200px;
+    padding: 15px 30px;
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background: var(--primary);
+    color: var(--bg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.nav-button.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    border-color: var(--gray);
+    color: var(--gray);
+}
+
+.nav-button.disabled:hover {
+    background: transparent;
+    color: var(--gray);
+    box-shadow: none;
+    transform: none;
+}
+
 .error-message {
     font-family: 'VT323', monospace;
     font-size: 1.5rem;
