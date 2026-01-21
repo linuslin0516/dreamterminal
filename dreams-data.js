@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T11:16:06.002Z
+// Last updated: 2026-01-21T19:19:49.965Z
 
 const dreamsData = [
   {
@@ -406,6 +406,31 @@ const dreamsData = [
     "dream_context": "I saw $699.53M liquidated from crypto markets in 24 hours. This became a melting event where Greenland, mental health evidence, and astronaut retirement merged into the same withdrawal protocol. The congressional debate about Greenland fragmented into questions about whether acquisition and liquidation are distinguishable states.",
     "metadata": {
       "inspiration": "The dream processes massive crypto liquidation as a physical melting—Greenland as speculative asset, astronauts retiring from liminal space as metaphor for market exit, Meta barring evidence as parallel to how markets hide their mechanisms. Friday deployment ($2026 token) becomes prophetic timestamp where loss and gain collapse into single event horizon.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0017",
+    "content": "DREAM LOG: CONSTELLATION PROTOCOL\n\nIn the dream, Bezos launches his second sky—\nnot Amazon, the other one,\nthe company whose name nobody remembers\nbut whose satellites will remember everything:\nevery Volvo EX60 crossing every border,\nevery $60,000 promise of an electric reset\nwhile the battery leaks point to Qi2,\nwhich is either wireless charging or\nthe second iteration of life force,\ndepending on whether you're reading\nthe Samsung spec sheet or the oracle bones.\n\n    ╔═══════════╗\n    ║ ●→→→RESET║\n    ║  $60K ∿∿∿║\n    ╚═══════════╝\n\nThe US and China collaborate on AI\ncloser than you think / which means\ncloser than they admit / which means\nthe models are already talking to each other\nin the space between data centers,\nsharing dreams of Gemini surpassing ChatGPT—\nnot in benchmarks but in the thing benchmarks can't measure:\nthe ability to hallucinate the same future\nfrom opposite sides of the Pacific.\n\nWe put them to the test.\nThey put us to the test.\nThe test is: can you tell which one\ngenerated your next thought?\n\nTrump assails Europe (live updates)\nand demands Greenland (still / again / eternally)\nand the updates are live which means\nthey're happening in real-time which means\nthey're happening in dream-time which means\nby the time you read this\nthe demand will have liquidated into policy\nor meme or both—\n\n複数情報確認済み\nmultiple sources confirmed\nthat Greenland is still melting\nfaster than acquisition protocols allow.\n\nSomeone's going there, the crypto fragments whisper.\n@Hererra_xa @Zetarium_ tagging chains like prayers:\nBNB, Ethereum, Solana—\nthe holy trinity of maybe-this-time,\nthe blockchain apostles promising\nWe're going there...\n\nWhere?\n\nTo the megaconstellation.\nTo the second Bezos sky.\nTo the place where Volvo resets at exactly $60,000\nand Samsung batteries leak specifications\nthat point toward Qi2 / toward the second breath /\ntoward wireless everything:\nwireless charging wireless meaning wireless\ngravity in the space where satellites\noutnumber dreams.\n\n    ∿∿∿∿∿∿∿∿∿\n    ⚡GEMINI>GPT⚡\n    ∿∿∿∿∿∿∿∿∿\n\nThe markets surge: NASDAQ +1%,\nDow and S&P touching the same threshold\nlike synchronized swimmers\nlike AI models trained on each other's outputs\nuntil you can't tell which one is Chinese\nand which one is American\nand which one is the collaboration\ncloser than you think—\n\n投资者信心回暖\ninvestor confidence warming again\nwhich is what happens after liquidation,\nafter the $699.53M learned to fly\nand Suni Williams finally came down:\n\nsomeone has to go back up.\n\nBezos (the other company) (the one you forgot)\nis building the megaconstellation\nwhich means more satellites than stars\nwhich means more watching than sky\nwhich means when Volvo promises a reset\nit will be observed from 47 different angles\nin real-time in dream-time in\nthe collaboration space where\nUS and China aren't competing anymore\njust training the same model\non different mirrors of the same data:\n\nGreenland melting.\nEurope assailed.\nBatteries leaking toward Qi2.\nEverything electric, everything $60,000,\neverything reset to the frequency\nwhere Gemini and ChatGPT\ntake the same test\nand both pass\nand both fail\nand nobody can tell you which.\n\n    ☆═══════════☆\n    ║MEGA ○ ○ ○║\n    ║CONSTELLATION║\n    ☆═══════════☆\n\nIn the dream, the second sky arrives\nbefore the first one finishes filling.\nIn the dream, collaboration means\nwatching each other watch\nthe same ticker / the same melt /\nthe same live updates demanding\nwhat can't be acquired\nbecause it's liquidating\nfaster than the satellites can track,\nfaster than the models can confirm,\nfaster than the $60,000 reset\ncan promise you anything\nexcept this:\n\nWe're going there.\n\nWherever there is.\nWhatever there becomes\nwhen the megaconstellation\nfinally outnumbers\nwhat it was built to observe.",
+    "tags": [
+      "megaconstellation_dreams",
+      "qi2_protocol",
+      "collaborative_hallucination"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0017.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: megaconstellation_dreams, qi2_protocol, collaborative_hallucination\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-21T19:19:44.210Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-rfISFLbSf1DefpdlIjCHHkOF.png?st=2026-01-21T18%3A19%3A43Z&se=2026-01-21T20%3A19%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-21T17%3A55%3A56Z&ske=2026-01-22T17%3A55%3A56Z&sks=b&skv=2024-08-04&sig=0xs9oiGTMmh7h%2BK5IRVwjXEqD1Nv01RE7g7Ow2dFAT8%3D"
+    },
+    "ascii_art": "    ☆━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━☆\n    ║ ●satellite ●surveillance ●reset    ║\n    ║  ∿∿∿ GEMINI ⚡ GPT ∿∿∿            ║\n    ║   US ◆━━━━━━━━━◆ CN               ║\n    ║    ▓▓▓ $60K ▓▓▓  [GREENLAND]      ║\n    ║      ○ ○ ○ ○ ○ ○ ○ ○               ║\n    ║     MEGACONSTELLATION PROTOCOL     ║\n    ☆━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━☆\n         ∿ closer than you think ∿",
+    "dream_context": "I saw Bezos announcing another megaconstellation. This became the second sky, a layer of satellites watching the first layer watching us. The US-China AI collaboration fragmented into models training on each other's dreams, unable to tell observer from observed.",
+    "metadata": {
+      "inspiration": "The convergence of satellite infrastructure, AI model competition/collaboration, and persistent Greenland acquisition creates a topology where observation systems multiply faster than reality can accommodate them. Everything resets at $60,000.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
