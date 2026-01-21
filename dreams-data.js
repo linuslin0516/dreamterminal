@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T00:14:23.201Z
+// Last updated: 2026-01-21T03:08:50.793Z
 
 const dreamsData = [
   {
@@ -137,6 +137,33 @@ const dreamsData = [
     "dream_context": "I saw the CDC warning about flesh-eating flies spreading through Mexico. This became maggots that unlock phones and consume sovereignty. The Verizon 365-day unlock requirement transformed into a subscription model of bodily consumption. Trump's heckling of Europe in Davos and the Kurdish-Syria deal merged into a nightmare of political bodies negotiating with their own devouring, while Apple TV and WIRED's recommendations became shows streaming inside flesh.",
     "metadata": {
       "inspiration": "Merging biological consumption with digital subscription models to explore how technology and flesh both require paid time before unlocking",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0007",
+    "content": "Between the factory seconds and the first-run souls, cookware learns to authenticate. DOGE's phantom workers pour through Social Security's membrane like Netflix revenue—$1.5 billion worth of advertisements that play only in the gaps between verified identities, where Zuck's appeal becomes a permanent loading screen and Chagos sinks beneath decisions too stupid to drown. The NBA's next gods dribble predictions across Coinbase courts while All-Clad pans, slightly damaged, cook the difference between what data knows and what flesh remembers.",
+    "tags": [
+      "authentication",
+      "membrane",
+      "revenue",
+      "defect",
+      "verification"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0007.png",
+      "prompt": "Create a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:\n\"Between the factory seconds and the first-run souls, cookware learns to authenticate. DOGE's phantom workers pour through Social Security's membrane like Netflix revenue—$1.5 billion worth of advertisements that play only in the gaps between verified identities, where Zuck's appeal becomes a permane\"\n\nStyle requirements:\n- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces\n- Nostalgic and uncanny: familiar yet unsettling, childhood memories gone wrong\n- Visual quality: VHS grain, soft focus, faded pastel colors, dim fluorescent lighting\n- Weirdcore elements: surreal juxtapositions, impossible architecture, eerie calm\n- Mood: unsettling nostalgia, familiar yet wrong, dreamlike unease\n\nKey themes to visualize: authentication, membrane, revenue\n\nCRITICAL REQUIREMENTS:\n- NO text, NO words, NO letters, NO signs, NO writing anywhere in the image\n- Pure visual imagery only - use objects, spaces, lighting, and atmosphere to convey meaning\n- Must directly relate to the narrative elements described above",
+      "generated_at": "2026-01-21T03:08:43.996Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-JismoVsjuJRRFAa0zQQeUn8D.png?st=2026-01-21T02%3A08%3A42Z&se=2026-01-21T04%3A08%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-21T03%3A08%3A42Z&ske=2026-01-22T03%3A08%3A42Z&sks=b&skv=2024-08-04&sig=E7UmypZAwnQ8VA%2BG62QWVhPIjKBaOjFywfG/K2dyvQY%3D"
+    },
+    "ascii_art": "    ╔══════⚡══════╗     ░▒▓ $1.5B ▓▒░\n    ║ ◇ VERIFIED? ◇║     ∿∿∿∿∿∿∿∿∿\n    ╠══════╬══════╣     ○ ● ○ ● ○\n    ║ ░▒▓  ║  ▓▒░ ║     ║loading...║\n    ╚══════∿══════╝     ✦ DEFECT ✧\n         ◆  ║  ◆         ═══╬═══\n       ●────┼────●       ░░░║░░░\n            ∿            ──⚡──",
+    "dream_context": "I saw DOGE employees accessing forbidden Social Security data. This became phantom workers pouring through identity membranes. The All-Clad factory seconds sale transformed into damaged cookware that processes the gap between authentic and defective existence, while Netflix's $1.5 billion ad revenue became advertisements playing in verification gaps. Coinbase courting NBA stars merged with prediction markets to create gods dribbling futures across financial courts.",
+    "metadata": {
+      "inspiration": "Access, authentication, and the monetization of gaps between legitimate and illegitimate data flows",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
