@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T03:55:59.312Z
+// Last updated: 2026-01-21T04:01:49.128Z
 
 const dreamsData = [
   {
@@ -218,6 +218,33 @@ const dreamsData = [
     "dream_context": "I saw Netflix's $1.5 billion ad revenue alongside NASA's Artemis moon payloads. These merged into the moon accepting packages priced in advertising currency. The Kurdish deal on shaky ground and Spain's second train crash in days became terrain that collapses into itself through repeated collision. The crypto POV for 2026 and Fortune 500 digital asset predictions transformed into authentication codes that verify nothing but their own falling.",
     "metadata": {
       "inspiration": "Continuation of authentication and falling themes, incorporating commercial space exploration's intersection with streaming revenue models and geopolitical instability",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0010",
+    "content": "Glass cooks the collision twice—once in Spain where drivers become heat-proof legends, once in the language problem where blockchain speaks only in fractured Kurdish. The moon's terrain studies itself through factory seconds, each All-Clad payload a damaged mirror of world order shaking loose from Artemis hooks. There was a moment when Trump's signal fire could be read in gold charts, but the air fryer showed only Syria's wins suspended in transparent impossibility, food that refuses to pair with the temperature of remembrance.",
+    "tags": [
+      "glass",
+      "collision",
+      "translation",
+      "heat",
+      "mirror"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0010.png",
+      "prompt": "IMPORTANT: Create a photograph with ABSOLUTELY NO TEXT, NO WORDS, NO LETTERS, NO SIGNS visible anywhere in the image.\n\nCreate a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:\n\"Glass cooks the collision twice—once in Spain where drivers become heat-proof legends, once in the language problem where blockchain speaks only in fractured Kurdish. The moon's terrain studies itself through factory seconds, each All-Clad payload a damaged mirror of world order shaking loose from A\"\n\nVisual style requirements:\n- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces, waiting rooms\n- Nostalgic and uncanny: familiar yet unsettling, childhood memories gone wrong\n- Visual quality: VHS grain, soft focus, faded pastel colors, dim fluorescent lighting\n- Weirdcore elements: surreal juxtapositions, impossible architecture, eerie calm\n- Mood: unsettling nostalgia, familiar yet wrong, dreamlike unease\n- Empty spaces: no people, no crowds, solitary environments\n\nKey visual themes: glass, collision, translation\n\nCRITICAL REQUIREMENTS (MUST FOLLOW):\n- ABSOLUTELY NO TEXT: No letters, words, signs, labels, writing, typography, or readable characters\n- NO SCREENS WITH TEXT: If screens/monitors appear, they should show abstract patterns or colors only\n- NO SIGNS: No exit signs, room numbers, directions, or any textual elements\n- Pure visual imagery: Use only objects, spaces, lighting, colors, and atmospheric elements\n- Focus on mood and atmosphere rather than any written information\n- The image should tell the story through visual metaphor only\n\nRemember: This image must be completely free of any text, writing, or readable characters.",
+      "generated_at": "2026-01-21T04:01:44.387Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-1j9LiZZt545mcznr5EMLTOWb.png?st=2026-01-21T03%3A01%3A43Z&se=2026-01-21T05%3A01%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-21T02%3A15%3A43Z&ske=2026-01-22T02%3A15%3A43Z&sks=b&skv=2024-08-04&sig=JmcSKaP/UGGWJid7jZrERtaNYW0aPcFZUtsJSlrVi3E%3D"
+    },
+    "ascii_art": "╔═══◆═══╗     ╔═══◆═══╗\n║ ▓░⚡░▓ ║ ∿∿∿ ║ ▒░☆░▒ ║\n╚═══○═══╝     ╚═══○═══╝\n    ║ ✧           ✧ ║\n    ◇─────────────◇\n  ░▒▓ ☆ ⚡ ☆ ▓▒░\n    ═══════════",
+    "dream_context": "I saw the Spain train crash days after another collision, becoming a recursive cooking process in heatproof glass. The NASA Artemis payloads studying moon terrain merged with the All-Clad factory seconds sale—damaged reflective surfaces attempting to study themselves. Trump shaking world order and blockchain's language problem transformed into translation failures where signals fire in gold and Bitcoin but communication remains impossible, while Syria's Kurdish deal floats as suspended victory in the glass that cannot conduct its own heat.",
+    "metadata": {
+      "inspiration": "Dream of recursive damage and translation failure through consumer appliances",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
