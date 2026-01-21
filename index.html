@@ -150,10 +150,54 @@
             const todayDreams = dreamsData.filter(d => d.date === today).length;
             animateNumber('todayDreams', todayDreams);
 
-            // Most common tag
-            const mostCommonTag = getMostCommonTag();
-            document.getElementById('mostCommon').textContent = mostCommonTag.toUpperCase();
+            // Most common tag (emoji)
+            const mostCommonEmoji = getMostCommonTag();
+            document.getElementById('mostCommon').innerHTML = mostCommonEmoji;
         }
+
+        // Tag to emoji mapping
+        const tagToEmoji = {
+            // Nature & Elements
+            'water': '🌊',
+            'fire': '🔥',
+            'ice': '❄️',
+            'sphere': '🔮',
+            'void': '🕳️',
+            'stars': '⭐',
+            'celestial': '✨',
+            'lunar': '🌙',
+
+            // Concepts
+            'time': '⏰',
+            'transformation': '🦋',
+            'space': '🌌',
+            'infinity': '♾️',
+            'mirror': '🪞',
+            'memory': '💭',
+            'dream': '💤',
+            'technology': '⚙️',
+            'birth': '🌱',
+            'mourning': '🕯️',
+
+            // Objects
+            'thread': '🧵',
+            'monument': '🗿',
+            'cookware': '🍳',
+            'aluminum': '⚙️',
+
+            // Abstract
+            'flesh': '🥩',
+            'subscription': '📱',
+            'sovereignty': '👑',
+            'interface': '💻',
+            'consumption': '🍽️',
+            'unlocking': '🔓',
+            'bleeding': '🩸',
+            'radiation': '☢️',
+
+            // Fallback
+            'default': '🌀'
+        };
 
         // Calculate most common tag across all dreams
         function getMostCommonTag() {
@@ -168,7 +212,7 @@
 
             // Find most common
             let maxCount = 0;
-            let mostCommon = 'VOID';
+            let mostCommon = 'void';
 
             for (const [tag, count] of Object.entries(tagCounts)) {
                 if (count > maxCount) {
@@ -177,7 +221,8 @@
                 }
             }
 
-            return mostCommon;
+            // Return emoji for most common tag
+            return tagToEmoji[mostCommon] || tagToEmoji['default'];
         }
 
         function animateNumber(elementId, target) {
