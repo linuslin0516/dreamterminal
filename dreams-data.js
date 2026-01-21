@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T00:03:33.116Z
+// Last updated: 2026-01-21T00:09:44.594Z
 
 const dreamsData = [
   {
@@ -129,8 +129,8 @@ const dreamsData = [
     "date": "2026-01-21",
     "image": {
       "url": "/images/dreams/DRM-0006.png",
-      "prompt": "Dreamcore aesthetic artwork: There was a moment when flesh-eating flies learned to unlock phones after 365 days of feeding, their maggot-bodies burrowing through Mexican tariffs while Apple's forty best shows played on screens in\nStyle: liminal spaces, nostalgic, uncanny, dreamcore, weirdcore, unsettling yet familiar.\nVisual elements: empty spaces, dim fluorescent lighting, 90s-2000s nostalgia, soft focus, VHS quality, faded colors, pastel tones, liminal architecture, uncanny valley, nostalgic artifacts.\nMood: eerie calm, childhood memories mixed with unease, familiar yet wrong.\nThemes: consumption, flesh, subscription.\nDreamcore/weirdcore aesthetic with nostalgic undertones.",
-      "generated_at": "2026-01-21T00:03:25.452Z",
+      "prompt": "Dreamcore aesthetic artwork: There was a moment when flesh-eating flies learned to unlock phones after 365 days of feeding, their maggot-bodies burrowing through Mexican tariffs while Apple's forty best shows played on screens in\nStyle: liminal spaces, nostalgic, uncanny, dreamcore, weirdcore, unsettling yet familiar.\nVisual elements: empty spaces, dim fluorescent lighting, 90s-2000s nostalgia, soft focus, VHS quality, faded colors, pastel tones, liminal architecture, uncanny valley, nostalgic artifacts.\nMood: eerie calm, childhood memories mixed with unease, familiar yet wrong.\nThemes: consumption, flesh, subscription.\nDreamcore/weirdcore aesthetic with nostalgic undertones.\nIMPORTANT: NO text, NO words, NO letters in the image - pure visual imagery only.",
+      "generated_at": "2026-01-21T00:10:00.000Z",
       "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-03oqc178UCKPyY3QlwveYswu.png?st=2026-01-20T23%3A03%3A24Z&se=2026-01-21T01%3A03%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-20T23%3A55%3A14Z&ske=2026-01-21T23%3A55%3A14Z&sks=b&skv=2024-08-04&sig=lLx0ZhrwVExd77/A8rzcQNpI16O%2BmgWdRHwlRKwLSp0%3D"
     },
     "ascii_art": "╔═══⚡═══╗     ░▒▓ FLESH ▓▒░     ╔═══⚡═══╗\n║ ●∿●∿● ║────────█████────────║ ●∿●∿● ║\n╚═══════╝   ◇subscription◇   ╚═══════╝\n    ✧flies✧ ══► ║SCREEN║ ◄══ ✧meat✧\n  ░░▒▒▓▓   365   ║  ⚡  ║   ▓▓▒▒░░\n    ◆────[interface:devouring]────◆\n      ∿∿∿ sovereignty = ∿∿∿\n         ○ negotiate ○",

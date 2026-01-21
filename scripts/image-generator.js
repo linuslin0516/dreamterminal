@@ -32,7 +32,8 @@ Style: liminal spaces, nostalgic, uncanny, dreamcore, weirdcore, unsettling yet 
 Visual elements: empty spaces, dim fluorescent lighting, 90s-2000s nostalgia, soft focus, VHS quality, faded colors, pastel tones, liminal architecture, uncanny valley, nostalgic artifacts.
 Mood: eerie calm, childhood memories mixed with unease, familiar yet wrong.
 Themes: ${tagContext}.
-Dreamcore/weirdcore aesthetic with nostalgic undertones.`;
+Dreamcore/weirdcore aesthetic with nostalgic undertones.
+IMPORTANT: NO text, NO words, NO letters in the image - pure visual imagery only.`;
 }
 
 /**
