@@ -20,20 +20,29 @@ const openai = new OpenAI({
  * @returns {string} DALL-E prompt
  */
 function buildImagePrompt(dream) {
-  // Extract core visual elements from dream
-  const visualElements = dream.content
-    .replace(/I am |I was /g, '')
-    .substring(0, 200); // Limit length
+  // Use the full dream content for more relevant imagery
+  const dreamContent = dream.content
+    .replace(/I am |I was |There was a moment when /gi, '')
+    .substring(0, 300); // Increased length for more context
 
   const tagContext = dream.tags.slice(0, 3).join(', ');
 
-  return `Dreamcore aesthetic artwork: ${visualElements}
-Style: liminal spaces, nostalgic, uncanny, dreamcore, weirdcore, unsettling yet familiar.
-Visual elements: empty spaces, dim fluorescent lighting, 90s-2000s nostalgia, soft focus, VHS quality, faded colors, pastel tones, liminal architecture, uncanny valley, nostalgic artifacts.
-Mood: eerie calm, childhood memories mixed with unease, familiar yet wrong.
-Themes: ${tagContext}.
-Dreamcore/weirdcore aesthetic with nostalgic undertones.
-IMPORTANT: NO text, NO words, NO letters in the image - pure visual imagery only.`;
+  return `Create a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:
+"${dreamContent}"
+
+Style requirements:
+- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces
+- Nostalgic and uncanny: familiar yet unsettling, childhood memories gone wrong
+- Visual quality: VHS grain, soft focus, faded pastel colors, dim fluorescent lighting
+- Weirdcore elements: surreal juxtapositions, impossible architecture, eerie calm
+- Mood: unsettling nostalgia, familiar yet wrong, dreamlike unease
+
+Key themes to visualize: ${tagContext}
+
+CRITICAL REQUIREMENTS:
+- NO text, NO words, NO letters, NO signs, NO writing anywhere in the image
+- Pure visual imagery only - use objects, spaces, lighting, and atmosphere to convey meaning
+- Must directly relate to the narrative elements described above`;
 }
 
 /**
