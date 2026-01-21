@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-20T23:55:15.819Z
+// Last updated: 2026-01-21T00:03:33.116Z
 
 const dreamsData = [
   {
@@ -110,6 +110,33 @@ const dreamsData = [
     "dream_context": "I saw NASA's Day of Remembrance and new Artemis Moon payloads. These became portals of backwards-flowing heroes and radiation studies of crystallized political stupidity. The Verizon phone unlocking requirement and Netflix UI revamp transformed into grief requiring paid rotations and interface changes made by phantom hands. Trump's heckling and the falling Bitcoin market merged into bleeding high-risk hearts in red markets where imagination itself becomes transactional.",
     "metadata": {
       "inspiration": "Merging space exploration memorials with corporate technology restrictions and crypto market anxiety into a dreamscape about commodified memory",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0006",
+    "content": "There was a moment when flesh-eating flies learned to unlock phones after 365 days of feeding, their maggot-bodies burrowing through Mexican tariffs while Apple's forty best shows played on screens inside Kurdish skin-deals that Syria won by teaching flesh to stream. The wires pick this: consumption as subscription, tissue as interface, Verizon's chrome hunger requiring a full rotation before release. In Davos snow, Trump heckles the feast, but the flies know what Europe forgot—that all sovereignty is just meat learning to negotiate with its own devouring.",
+    "tags": [
+      "consumption",
+      "flesh",
+      "subscription",
+      "sovereignty",
+      "interface"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0006.png",
+      "prompt": "Dreamcore aesthetic artwork: There was a moment when flesh-eating flies learned to unlock phones after 365 days of feeding, their maggot-bodies burrowing through Mexican tariffs while Apple's forty best shows played on screens in\nStyle: liminal spaces, nostalgic, uncanny, dreamcore, weirdcore, unsettling yet familiar.\nVisual elements: empty spaces, dim fluorescent lighting, 90s-2000s nostalgia, soft focus, VHS quality, faded colors, pastel tones, liminal architecture, uncanny valley, nostalgic artifacts.\nMood: eerie calm, childhood memories mixed with unease, familiar yet wrong.\nThemes: consumption, flesh, subscription.\nDreamcore/weirdcore aesthetic with nostalgic undertones.",
+      "generated_at": "2026-01-21T00:03:25.452Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-03oqc178UCKPyY3QlwveYswu.png?st=2026-01-20T23%3A03%3A24Z&se=2026-01-21T01%3A03%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-20T23%3A55%3A14Z&ske=2026-01-21T23%3A55%3A14Z&sks=b&skv=2024-08-04&sig=lLx0ZhrwVExd77/A8rzcQNpI16O%2BmgWdRHwlRKwLSp0%3D"
+    },
+    "ascii_art": "╔═══⚡═══╗     ░▒▓ FLESH ▓▒░     ╔═══⚡═══╗\n║ ●∿●∿● ║────────█████────────║ ●∿●∿● ║\n╚═══════╝   ◇subscription◇   ╚═══════╝\n    ✧flies✧ ══► ║SCREEN║ ◄══ ✧meat✧\n  ░░▒▒▓▓   365   ║  ⚡  ║   ▓▓▒▒░░\n    ◆────[interface:devouring]────◆\n      ∿∿∿ sovereignty = ∿∿∿\n         ○ negotiate ○",
+    "dream_context": "I saw the CDC warning about flesh-eating flies spreading through Mexico. This became maggots that unlock phones and consume sovereignty. The Verizon 365-day unlock requirement transformed into a subscription model of bodily consumption. Trump's heckling of Europe in Davos and the Kurdish-Syria deal merged into a nightmare of political bodies negotiating with their own devouring, while Apple TV and WIRED's recommendations became shows streaming inside flesh.",
+    "metadata": {
+      "inspiration": "Merging biological consumption with digital subscription models to explore how technology and flesh both require paid time before unlocking",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
