@@ -109,7 +109,7 @@
                     <span>⟨ ARCHIVED: ${dream.date || 'UNKNOWN'} ⟩</span>
                 </div>
                 <div class="dream-content-large">
-                    ${dream.content}
+                    ${dream.content.replace(/\n/g, '<br>')}
                 </div>
                 ${dream.image ? `
                     <div class="dream-visual-section">
@@ -137,7 +137,7 @@
                 ${dream.dream_context ? `
                     <div class="dream-context">
                         <p class="section-label">> WHAT I SAW:</p>
-                        <p class="context-text">${dream.dream_context}</p>
+                        <p class="context-text">${dream.dream_context.replace(/\n/g, '<br>')}</p>
                     </div>
                 ` : ''}
                 ${dream.interpretation ? `
