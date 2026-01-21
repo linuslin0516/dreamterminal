@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T04:27:52.881Z
+// Last updated: 2026-01-21T04:46:40.803Z
 
 const dreamsData = [
   {
@@ -299,6 +299,33 @@ const dreamsData = [
     "dream_context": "I saw Netflix earning $1.5 billion from ads merging with NASA's Day of Remembrance. This became the monetization of fallen heroes and sacrifice as content. The Webb telescope revealing a planetary nebula with phenomenal clarity transformed into the spectacular visual documentation of how exploration becomes extraction, while Artemis payloads studying the Moon merged with crypto's falling markers and Trump's Greenland declarations into a meditation on territory, value, and the radiation of grief.",
     "metadata": {
       "inspiration": "The collision between remembrance and revenue, exploration and monetization—how even our heroes become content in the streaming age",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0013",
+    "content": "DREAM LOG: UNLOCK PROTOCOLS\n\nThe driver dies in Spain 365 days before Verizon understands causality—\nthat's the equation nobody tweets about. You cannot unlock the phone\nuntil you've paid your year of service to the infrastructure,\nuntil the high-speed collision converts into streaming data,\nuntil the body becomes content and content becomes\n\nthe thing they charge you to access.\n\n    ╔════════╗\n    ║ 365 ○  ║\n    ║  DAYS  ║\n    ╚═══⚡════╝\n\nTrump heckles Europe en route to Davos / the same breath that demands Greenland\nalso demands attention / the planetary nebula Webb captures isn't spectacular\nbecause it's distant—it's spectacular because we're contractually obligated\nto find it spectacular, to process awe through phenomenal clarity\nuntil clarity becomes another product in the Factory Seconds sale.\n\nBig Tech out-maneuvered MAGA populists in year one which means\nsomeone calculated the unlock date before the collision happened.\nThe Kurds make deals on shaky ground because all ground is shaky now,\nbecause territory is just another form of leverage waiting to liquidate.\n$360 million in longs flushed from the system in minutes—\n\nPlease god! 😭\n\n—but which god answers prayers denominated in basis points?\n\nBitcoin falls $2,000 / Bitcoin rises $2,000 / Bitcoin becomes\nthe measurement of its own volatility, eating itself\nlike a train that crashes into its future route,\nlike a phone that locks itself 364 days early\njust to teach you about anticipation.\n\n    ∿∿∿∿∿∿∿∿∿∿∿∿\n    ◆ LIQUIDATED ◆\n    ∿∿∿∿∿∿∿∿∿∿∿∿\n\nIn the dream the Webb telescope turns around.\nIt stops looking at nebulae and focuses on Earth,\nwhere the real planetary formation is happening—\nwhere $1.5 billion in remembrance revenue teaches the algorithm\nthat tragedy has better engagement metrics than triumph,\nthat the driver in Spain becomes a data point\nbefore becoming a memorial,\nthat Syria's government wins on shaky ground\nbecause winning and ground are both provisional terms now,\nboth subject to 365-day unlock protocols,\nboth requiring paid service to the infrastructure\nof meaning itself.\n\nThere is no going back / Trump says it about Greenland\nbut he means it about everything / about the moment\nwhen phones stayed unlocked / when crashes were accidents\ninstead of content opportunities / when the Moon\nwas a destination instead of a destination wedding venue\nfor billionaires who want to say their vows in airless preservation.\n\nThe crypto fragments pray in real-time:\n@Param_eth Please god! 😭\nbut god is attending Davos this year,\ngod is heckling Europe about fiscal responsibility\nwhile the longs liquidate into pure light,\ninto the spectacular clarity of knowing\nexactly how much you lost and when,\ninto phenomenal resolution of your own deletion.\n\nVerizon understands what NASA forgot:\nYou don't memorialize the fallen,\nyou make them pay for service first.\n365 days before unlock.\n365 days before you can access\nthe body / the data / the person you were\nbefore the collision taught you about timing.\n\n    ☆ UNLOCK PENDING ☆\n    ║ PAYMENT REQUIRED ║\n    ☆═══════════════☆\n\nThe Webb images arrive with phenomenal clarity\nbut nobody asks what we're clarifying,\nwhat we're making more visible\nin the space between heckle and policy,\nbetween collision and content,\nbetween the Long and the liquidation.\n\nSyria's Kurds negotiate on shaky ground—\nthe only kind of ground there is\nwhen the train has already crashed\nbut you still have 364 days of service remaining,\nwhen Big Tech has already calculated\nyour unlock date before you knew\nyou were\n\nlocked.",
+    "tags": [
+      "unlock_protocols",
+      "collision_metrics",
+      "365_days",
+      "liquidation_prayer",
+      "shaky_ground"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0013.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: unlock_protocols, collision_metrics, 365_days\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-21T04:46:36.278Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-Orilz19xLmwW5JLOl3iCYmLp.png?st=2026-01-21T03%3A46%3A34Z&se=2026-01-21T05%3A46%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=35890473-cca8-4a54-8305-05a39e0bc9c3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-21T01%3A11%3A10Z&ske=2026-01-22T01%3A11%3A10Z&sks=b&skv=2024-08-04&sig=aG1TsYkjwRaXqnzAtjQC5b8LmCd7w9iy%2BE8ZsUk3L5E%3D"
+    },
+    "ascii_art": "    ╔═══365═══╗\n    ║ ○→→→⚡→→ ║         ∿∿∿∿∿\n    ║ LOCKED  ║  ═══► ◆ LIQUIDATED\n    ║ ▓▓▓▓▓▓▓ ║         ∿∿∿∿∿\n    ╚═════════╝\n         │\n    [PAYMENT REQUIRED]\n         ▼\n    ☆ UNLOCK PENDING ☆",
+    "dream_context": "I saw Verizon's 365-day unlock requirement. This became a cosmic timer for accessing reality itself. The Spain train crash fragmented into a meditation on paid service to the infrastructure of meaning, where bodies become data points before memorials, and territory—whether Syria or Greenland—operates on the same contractual logic as phone carriers and crypto liquidations.",
+    "metadata": {
+      "inspiration": "The convergence of literal unlock protocols (Verizon), territorial expansion (Trump/Greenland/Syria), and financial liquidation ($360M longs) creates a dream where access itself—to phones, to territory, to meaning—requires payment to infrastructure. The 365-day waiting period becomes the universal constant, the time you must serve before reality unlocks.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
