@@ -27,22 +27,30 @@ function buildImagePrompt(dream) {
 
   const tagContext = dream.tags.slice(0, 3).join(', ');
 
-  return `Create a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:
+  return `IMPORTANT: Create a photograph with ABSOLUTELY NO TEXT, NO WORDS, NO LETTERS, NO SIGNS visible anywhere in the image.
+
+Create a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:
 "${dreamContent}"
 
-Style requirements:
-- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces
+Visual style requirements:
+- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces, waiting rooms
 - Nostalgic and uncanny: familiar yet unsettling, childhood memories gone wrong
 - Visual quality: VHS grain, soft focus, faded pastel colors, dim fluorescent lighting
 - Weirdcore elements: surreal juxtapositions, impossible architecture, eerie calm
 - Mood: unsettling nostalgia, familiar yet wrong, dreamlike unease
+- Empty spaces: no people, no crowds, solitary environments
 
-Key themes to visualize: ${tagContext}
+Key visual themes: ${tagContext}
 
-CRITICAL REQUIREMENTS:
-- NO text, NO words, NO letters, NO signs, NO writing anywhere in the image
-- Pure visual imagery only - use objects, spaces, lighting, and atmosphere to convey meaning
-- Must directly relate to the narrative elements described above`;
+CRITICAL REQUIREMENTS (MUST FOLLOW):
+- ABSOLUTELY NO TEXT: No letters, words, signs, labels, writing, typography, or readable characters
+- NO SCREENS WITH TEXT: If screens/monitors appear, they should show abstract patterns or colors only
+- NO SIGNS: No exit signs, room numbers, directions, or any textual elements
+- Pure visual imagery: Use only objects, spaces, lighting, colors, and atmospheric elements
+- Focus on mood and atmosphere rather than any written information
+- The image should tell the story through visual metaphor only
+
+Remember: This image must be completely free of any text, writing, or readable characters.`;
 }
 
 /**

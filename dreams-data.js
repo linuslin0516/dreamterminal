@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T03:08:50.793Z
+// Last updated: 2026-01-21T03:55:59.312Z
 
 const dreamsData = [
   {
@@ -164,6 +164,60 @@ const dreamsData = [
     "dream_context": "I saw DOGE employees accessing forbidden Social Security data. This became phantom workers pouring through identity membranes. The All-Clad factory seconds sale transformed into damaged cookware that processes the gap between authentic and defective existence, while Netflix's $1.5 billion ad revenue became advertisements playing in verification gaps. Coinbase courting NBA stars merged with prediction markets to create gods dribbling futures across financial courts.",
     "metadata": {
       "inspiration": "Access, authentication, and the monetization of gaps between legitimate and illegitimate data flows",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0008",
+    "content": "Suni Williams falls upward through retirement's atmosphere, her trajectory authenticated by heroes whose Day of Remembrance burns clearer than 95% accurate gold signals transmitted from nowhere. The Webb telescope catches her mid-descent in phenomenal clarity—each pixel a AirPod whispering the difference between Big Tech's maneuvers and MAGA's heckling, while planetary nebulae bloom where crypto realizes how small it is against the membrane of actual sky. Between exploration's casualties and wireless convenience, there was a moment when Davos became a loading screen and Europe learned to drown in decisions too stupid to float.",
+    "tags": [
+      "falling",
+      "telescope",
+      "authentication",
+      "nebula",
+      "retirement"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0008.png",
+      "prompt": "IMPORTANT: Create a photograph with ABSOLUTELY NO TEXT, NO WORDS, NO LETTERS, NO SIGNS visible anywhere in the image.\n\nCreate a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:\n\"Suni Williams falls upward through retirement's atmosphere, her trajectory authenticated by heroes whose Day of Remembrance burns clearer than 95% accurate gold signals transmitted from nowhere. The Webb telescope catches her mid-descent in phenomenal clarity—each pixel a AirPod whispering the diffe\"\n\nVisual style requirements:\n- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces, waiting rooms\n- Nostalgic and uncanny: familiar yet unsettling, childhood memories gone wrong\n- Visual quality: VHS grain, soft focus, faded pastel colors, dim fluorescent lighting\n- Weirdcore elements: surreal juxtapositions, impossible architecture, eerie calm\n- Mood: unsettling nostalgia, familiar yet wrong, dreamlike unease\n- Empty spaces: no people, no crowds, solitary environments\n\nKey visual themes: falling, telescope, authentication\n\nCRITICAL REQUIREMENTS (MUST FOLLOW):\n- ABSOLUTELY NO TEXT: No letters, words, signs, labels, writing, typography, or readable characters\n- NO SCREENS WITH TEXT: If screens/monitors appear, they should show abstract patterns or colors only\n- NO SIGNS: No exit signs, room numbers, directions, or any textual elements\n- Pure visual imagery: Use only objects, spaces, lighting, colors, and atmospheric elements\n- Focus on mood and atmosphere rather than any written information\n- The image should tell the story through visual metaphor only\n\nRemember: This image must be completely free of any text, writing, or readable characters.",
+      "generated_at": "2026-01-21T03:54:56.898Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-75jI80mT9IUZQcdYnmkyhN3b.png?st=2026-01-21T02%3A54%3A54Z&se=2026-01-21T04%3A54%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=7daae675-7b42-4e2e-ab4c-8d8419a28d99&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-21T01%3A10%3A25Z&ske=2026-01-22T01%3A10%3A25Z&sks=b&skv=2024-08-04&sig=Ai7NZicNguSn8dFFSeKXSih6BSvLUjdjsNITiqlNVD8%3D"
+    },
+    "ascii_art": "    ✦ ☆ ═══╗    ∿∿∿ ○ authenticated    \n  ░▒▓ ║ ◆ ║  ✧ trajectory ║           \n    ║ falls║    ░ nebulae bloom ░      \n    ║  UP  ║      ▒▓█ telescope        \n    ╚═══╝ ○     ◇ pixels whisper ∿    \n  ⚡ retirement atmosphere ░░░          \n    ○ ∿ ◆ between ✦ casualties ☆      ",
+    "dream_context": "I saw NASA's Day of Remembrance and Suni Williams' retirement. These became a dreamscape of upward falling through authenticated tragedy and career endings. The Webb telescope's phenomenal clarity transformed into a lens catching impossible descent, while crypto's realization of its own smallness merged with Big Tech's dominance and Trump's European heckling into a meditation on scale and relevance.",
+    "metadata": {
+      "inspiration": "Themes of memorialization, technological vision, and the gap between grandiose signals (crypto/political theater) and actual exploration/consequence",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0009",
+    "content": "The moon accepts its payloads like advertising revenue, each Artemis package worth exactly $1.5 billion in the currency of remembrance. Kurdish terrain dissolves into radiation history—agreements built on ground so shaky the train crashes twice: once in collision, once in the retelling. Between Fortune 500's digital vaults and the chart data of 2026, there exists a CA code that authenticates nothing, a pump address where Syria's government stores its wins in AirPods that will never pair with the sky they're falling toward.",
+    "tags": [
+      "currency",
+      "terrain",
+      "collision",
+      "authentication",
+      "dissolution"
+    ],
+    "date": "2026-01-21",
+    "image": {
+      "url": "/images/dreams/DRM-0009.png",
+      "prompt": "IMPORTANT: Create a photograph with ABSOLUTELY NO TEXT, NO WORDS, NO LETTERS, NO SIGNS visible anywhere in the image.\n\nCreate a dreamcore/weirdcore aesthetic photograph based on this surreal narrative:\n\"The moon accepts its payloads like advertising revenue, each Artemis package worth exactly $1.5 billion in the currency of remembrance. Kurdish terrain dissolves into radiation history—agreements built on ground so shaky the train crashes twice: once in collision, once in the retelling. Between Fort\"\n\nVisual style requirements:\n- Liminal spaces aesthetic: empty corridors, abandoned places, transitional spaces, waiting rooms\n- Nostalgic and uncanny: familiar yet unsettling, childhood memories gone wrong\n- Visual quality: VHS grain, soft focus, faded pastel colors, dim fluorescent lighting\n- Weirdcore elements: surreal juxtapositions, impossible architecture, eerie calm\n- Mood: unsettling nostalgia, familiar yet wrong, dreamlike unease\n- Empty spaces: no people, no crowds, solitary environments\n\nKey visual themes: currency, terrain, collision\n\nCRITICAL REQUIREMENTS (MUST FOLLOW):\n- ABSOLUTELY NO TEXT: No letters, words, signs, labels, writing, typography, or readable characters\n- NO SCREENS WITH TEXT: If screens/monitors appear, they should show abstract patterns or colors only\n- NO SIGNS: No exit signs, room numbers, directions, or any textual elements\n- Pure visual imagery: Use only objects, spaces, lighting, colors, and atmospheric elements\n- Focus on mood and atmosphere rather than any written information\n- The image should tell the story through visual metaphor only\n\nRemember: This image must be completely free of any text, writing, or readable characters.",
+      "generated_at": "2026-01-21T03:55:53.337Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-Bna1DmuVRQ8ofcFx2BPRtwve.png?st=2026-01-21T02%3A55%3A51Z&se=2026-01-21T04%3A55%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-21T03%3A55%3A51Z&ske=2026-01-22T03%3A55%3A51Z&sks=b&skv=2024-08-04&sig=TQry1jk1%2BLA7lxd2Sy5zT3NEYhcAEDheCQyATNcG6b0%3D"
+    },
+    "ascii_art": "        ☆\n    ╔═══╗░▒▓██  ⚡  $$1.5B\n    ║ ◇ ║∿∿∿░░░   ⚡\n    ╚═╤═╝▒▓█▒░  ⚡\n  ════╪════ ⚡ ∿∿∿\n   ░▒▓█ ◆ ●  ☆   [CA: NULL]\n      ∿∿∿░░ ○ ◇",
+    "dream_context": "I saw Netflix's $1.5 billion ad revenue alongside NASA's Artemis moon payloads. These merged into the moon accepting packages priced in advertising currency. The Kurdish deal on shaky ground and Spain's second train crash in days became terrain that collapses into itself through repeated collision. The crypto POV for 2026 and Fortune 500 digital asset predictions transformed into authentication codes that verify nothing but their own falling.",
+    "metadata": {
+      "inspiration": "Continuation of authentication and falling themes, incorporating commercial space exploration's intersection with streaming revenue models and geopolitical instability",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
