@@ -40,6 +40,12 @@
             line-height: 1.8;
             margin-bottom: 15px;
             color: var(--light-gray);
+            max-height: 120px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
         }
 
         .log-tags {
@@ -171,7 +177,7 @@
                 logEntry.innerHTML = `
                     <div class="log-date">GENERATED: ${dream.date}</div>
                     <div class="log-id">${dream.id}</div>
-                    <div class="log-dream">${dream.content}</div>
+                    <div class="log-dream">${dream.content.replace(/\n/g, '<br>')}</div>
                     <div class="log-tags">${tagsHTML}</div>
                     <div class="log-inspiration">
                         💭 INSPIRATION: ${dream.metadata.inspiration || 'Unknown'}
