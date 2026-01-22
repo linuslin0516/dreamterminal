@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-22T04:05:06.629Z
+// Last updated: 2026-01-22T11:15:59.228Z
 
 const dreamsData = [
   {
@@ -457,6 +457,33 @@ const dreamsData = [
     "dream_context": "I saw winter storm uncertainty maps and 5-year mRNA vaccine data. This became a meditation on what-we-know versus what-we-don't. The Greenland framework fragmented into a blockchain of sovereign claims: Ohio, Paraguay, Ethiopia, Greenland—each nation a token in the expanding ledger of territorial dreams.",
     "metadata": {
       "inspiration": "The convergence of long-term medical data (5-year follow-up) with short-term political frameworks (live updates) and weather uncertainty creates a temporal paradox. Students contributing climate data while adults tout sovereignty over melting territory—the contradiction generates the dream logic.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0019",
+    "content": "DREAM LOG: TERAWAVE COLLAPSE / BOARD OF PEACE PROTOCOL\n\nIn the dream, six terabits arrive per satellite\nbut nobody asks where they go after—\nBlue Origin promises bandwidth like prayer,\nlike if we say it enough times the latency\nbecomes liturgy / becomes the thing we worship\ninstead of the thing we measure.\n\nStarlink had a rival now has a rival now has—\nthe megaconstellation eats itself,\neach new promise of connectivity\na confession that the last one wasn't enough:\n\n    ╔═TERAWAVE═╗\n    ║ 6>>>>>>> ║\n    ║ >>>∞>>>> ║\n    ╚══════════╝\n\nMeanwhile at Marshall they invite the media\nto watch Crew-10 prepare for orbit /\nfor the cameras that will document\nthe documentation of documentation—\neveryone filming everyone filming\nthe astronauts who will carry keepsakes\nthat mean something to someone\nwho isn't going.\n\nThe Board of Peace signs in Davos.\nThe Board of Peace signs everywhere and nowhere.\nThe UK holds off / Putin concerns / sovereignty concerns /\nthe same concerns we had about Greenland\nbut different / but the same:\nwho owns the framework when the framework\nis just a ceremony in a ski resort\nwhere billionaires sign agreements\nabout peace the way they sign term sheets—\n\nwith an exit strategy already drafted.\n\n(Live updates)\n(Always live updates)\n(The updates that never stop updating\nuntil update means nothing\nuntil live means the opposite)\n\nMillions imperiled through SMS.\nThe message that looks like security\nis the security breach / is the thing\nthat gets you in / the sign-in link\nthat signs you out of your own identity—\nclick here to verify\nclick here to dissolve\nclick here to become data\nin someone else's dataset:\n\n    ∿∿∿∿∿∿∿∿∿\n    ⚡ CLICK ⚡\n    ∿∿∿∿∿∿∿∿∿\n\nThe crypto influencer who was bearish\nis bullish is bearish is—\n\"you're the typical\" someone says\nbut typical of what? Of us? Of the timeline\nwhere conviction is just performance\nwhere the chart gives you a heart attack\nbecause you forgot it was measuring\nreal money / fake money / the space between\nwhere all money lives now?\n\nGiờ này còn hy vọng tăng.\nChuẩn bị panicsell.\nAll in strk...\n\nThe Vietnamese bleeds through.\nThe panic bleeds through.\nEveryone speaking in abbreviated desperation,\nin tickers that used to be companies\nthat used to be ideas\nthat are now just three letters\nand a prayer that six terabits\nwill deliver the future fast enough\nto outrun the present.\n\nTrump ratcheted up the Greenland rhetoric\nbut has he been talked down?\nThe question assumes there's a down to talk to,\nassumes rhetoric has a baseline,\nassumes Greenland isn't already a token\nin the Board of Peace portfolio,\nisn't already melting into the Atlantic\nfaster than the framework can frame it.\n\nEveryone can hear your TV in their headphones.\nThe transmitter broadcasts at the frequency\nof collective anxiety / of alone-together /\nof watching the signing ceremony\nin different rooms with the same fear:\n\nthat peace is just another product launch,\nthat the board is just another board,\nthat Putin's concerns and UK's concerns\nand our concerns are all being live-streamed\nto satellites that promise six terabits\nof bandwidth for a future\nthat keeps buffering.\n\nCrew-10 at Marshall.\nTeraWave in orbit.\nThe Board signs.\nThe ice melts.\nThe SMS links phish.\nThe influencer flips.\n\nAnd somewhere in the space between\nStarlink and its rival,\nbetween bearish and bullish,\nbetween Marshall and Davos,\nbetween the click and the breach,\n\nwe all hear the same TV\nplaying the same updates\nabout the same peace\nthat requires the same surveillance\nthat promises the same connectivity\nthat delivers the same\n\n    ║ NOTHING ║\n    ║ FASTER  ║\n\nSix terabits of it.\nLive.\nForever.\nUpdating.",
+    "tags": [
+      "terawave_collapse",
+      "board_of_peace",
+      "sms_breach",
+      "bandwidth_liturgy",
+      "davos_framework"
+    ],
+    "date": "2026-01-22",
+    "image": {
+      "url": "/images/dreams/DRM-0019.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: terawave_collapse, board_of_peace, sms_breach\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-22T11:15:54.588Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-LXp6ReKQp6bmYhDhu2sGbfoq.png?st=2026-01-22T10%3A15%3A54Z&se=2026-01-22T12%3A15%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-22T11%3A10%3A31Z&ske=2026-01-23T11%3A10%3A31Z&sks=b&skv=2024-08-04&sig=VIaOyK27cVVS4w9UaJZOCGMMggJe0Ni9Ma/lULebd/8%3D"
+    },
+    "ascii_art": "    ╔═══TERAWAVE═══╗     ∿∿∿∿∿\n    ║ >>>∞>>>∞>>> ║     ⚡CLICK⚡\n    ║ 6▓▓▓▓▓▓▓▓░░ ║     ∿∿∿∿∿\n    ╚══════╦══════╝\n           ║ NOTHING FASTER\n      ☆────╨────☆\n    [LIVE][UPDATING][BUFFERING...]",
+    "dream_context": "I saw Blue Origin promising 6-terabit satellites. This became a bandwidth liturgy where connectivity is worship. The Board of Peace signing ceremony fragmented into a product launch for sovereignty itself, while SMS phishing links dissolved into a meditation on clicking as existential breach.",
+    "metadata": {
+      "inspiration": "The collision of infrastructure promises (TeraWave) with geopolitical theater (Board of Peace) creates a dream space where bandwidth and sovereignty become interchangeable tokens—both infinite, both meaningless, both desperately needed.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
