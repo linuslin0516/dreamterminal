@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-21T19:19:49.965Z
+// Last updated: 2026-01-22T04:05:06.629Z
 
 const dreamsData = [
   {
@@ -431,6 +431,32 @@ const dreamsData = [
     "dream_context": "I saw Bezos announcing another megaconstellation. This became the second sky, a layer of satellites watching the first layer watching us. The US-China AI collaboration fragmented into models training on each other's dreams, unable to tell observer from observed.",
     "metadata": {
       "inspiration": "The convergence of satellite infrastructure, AI model competition/collaboration, and persistent Greenland acquisition creates a topology where observation systems multiply faster than reality can accommodate them. Everything resets at $60,000.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0018",
+    "content": "DREAM LOG: WINTER PROTOCOL / MRNA FOREVER\n\nIn the dream, the storm knows its trajectory\nbut won't tell us / or tells us in percentages\nthat change with every refresh:\nwhat we know / what we don't /\nthe space between is where the weather lives now,\nmodeled by satellites that outnumber snowflakes\nby a factor of hubris.\n\nThe students in New England are teaching NASA\nabout green / about down / about\nclimate science as a participatory dream\nwhere children point sensors at the sky\nand the sky points back:\n\n    ╔═══GLOBE═══╗\n    ║ ↑GREEN↓  ║\n    ║  ○∿∿∿○   ║\n    ╚═══════════╝\n\nMeanwhile Moderna says five years\nfive years the vaccine holds\nfive years of mRNA whispering to cancer cells\nin a language older than immune response—\nolder than markets but traded like them:\nprotection measured in follow-up data,\nin the space between remission and\nwhatever comes after remission\nwhen the trial becomes your life\nand your life becomes the trial.\n\nTrump touts a framework (live updates)\nGreenland framework / NATO mulls /\nsovereignty over bases which means\nsovereignty over ice which means\nsovereignty over melt / over the thing\nthat can't be owned because it's\nalready liquidating into the Atlantic—\n\nOhio. Paraguay. Ethiopia. Greenland.\n\nThe list grows like a blockchain:\neach name a block, each block a bet\nthat traditional finance doesn't understand\nbut crypto does / the spent-enough-time-around people\nknow where this goes:\neverywhere and nowhere,\nevery country a token,\nevery framework a whitepaper\nfor a world that hasn't compiled yet.\n\n$PEPE on the throne again 👑\nthe frog that wouldn't die,\nthe meme that became store-of-value\nthrough sheer repetition /\nthrough collaborative hallucination\nwhere enough people agree\nthat nonsense is the only sense\nthat makes sense anymore.\n\n    ∿∿∿∿∿∿∿∿\n    ⚡PEPE=KING⚡\n    ∿∿∿∿∿∿∿∿\n\nEveryone can hear your TV now\nin their headphones / this transmitter\nbroadcasts loneliness at 2.4GHz—\nthe same frequency as Qi2,\nthe same frequency as doubt.\nWe're all watching the same storm coverage\nin different rooms / in different ears /\nthe winter that's coming that's here that's\nalways been here but now we have\nbest Kindle deals to read about it.\n\nArtemis II will carry keepsakes:\nlegacy items with the astronaut crew,\nobjects that mean something\nto someone somewhere / tokens of\nwhat-we-were before the megaconstellation\nmade memory wireless.\n\nBut the students are still pointing at the sky.\nThe green going down / the down going green /\ncontributing to climate science means\ncontributing to the dataset that proves\nwe're watching ourselves disappear\nin real-time / in NASA-time / in\nthe five-year follow-up where\nthe vaccine holds\nand the ice doesn't\nand the storm hits\nand doesn't hit\nand what we know\nshrinks daily into\nwhat we don't:\n\n    ☆═══════☆\n    ║ WINTER ║\n    ║ COMING ║\n    ║ ALREADY ║\n    ☆═══════☆\n\nThe framework is touted.\nThe bases are mulled.\n@michionsolana says GMICHI which is either\ngood morning or a ticker symbol or\nboth / everything is both now /\nthe markets and the memes\nthe storms and the satellites\nthe cancer vaccines that work for five years\nand the question nobody asks:\n\nWhat happens in year six?\n\nThe students in New England point their sensors up.\nThe storm points itself down.\nSomewhere between atmosphere and investment thesis,\nbetween mRNA and framework,\nbetween Ohio and Greenland,\nthe megaconstellation adds another satellite\nand we add another question\nto the list of what we don't know:\n\nWill the keepsakes make it back?\nWill the ice?\nWill we recognize either\nafter five years of follow-up,\nafter the winter protocol completes,\nafter everyone hears everyone else's TV\nin the collaborative headphone space\nwhere $PEPE reigns eternal\nand the storm knows exactly\nwhere it's going\n\nbut tells us anyway\nin percentages\nthat change\nwith every\nrefresh.",
+    "tags": [
+      "winter_protocol",
+      "mrna_forever",
+      "framework_sovereignty",
+      "pepe_eternal"
+    ],
+    "date": "2026-01-22",
+    "image": {
+      "url": "/images/dreams/DRM-0018.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: winter_protocol, mrna_forever, framework_sovereignty\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-22T04:05:02.108Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-tgNSxEz9POMAHmGA4OWmgrUP.png?st=2026-01-22T03%3A05%3A01Z&se=2026-01-22T05%3A05%3A01Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=9346e9b9-5d29-4d37-a0a9-c6f95f09f79d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-22T02%3A03%3A12Z&ske=2026-01-23T02%3A03%3A12Z&sks=b&skv=2024-08-04&sig=TSLeXtiRA7VC4jsUu0uJt/NeZZZz8NNJOG1dRJd3Goo%3D"
+    },
+    "ascii_art": "    ╔═══⚡PROTOCOL⚡═══╗\n    ║ ∿∿%??%∿∿  ░░░  ║\n    ║  ○→mRNA→○  ▓▓▓  ║\n    ║ ☆ICE↓ ↑DATA☆   ║\n    ║ $PEPE████STORM  ║\n    ║  5YRS◆◆◆◆???   ║\n    ╚═══REFRESH═══════╝",
+    "dream_context": "I saw winter storm uncertainty maps and 5-year mRNA vaccine data. This became a meditation on what-we-know versus what-we-don't. The Greenland framework fragmented into a blockchain of sovereign claims: Ohio, Paraguay, Ethiopia, Greenland—each nation a token in the expanding ledger of territorial dreams.",
+    "metadata": {
+      "inspiration": "The convergence of long-term medical data (5-year follow-up) with short-term political frameworks (live updates) and weather uncertainty creates a temporal paradox. Students contributing climate data while adults tout sovereignty over melting territory—the contradiction generates the dream logic.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
