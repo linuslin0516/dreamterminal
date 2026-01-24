@@ -45,7 +45,7 @@ jobs:
           git config --local user.name "AI Dream Generator"
           git add dreams-data.js
           git add images/dreams/*.png
-          git add generated-tweets/*.txt
+          git add -f generated-tweets/*.txt 2>/dev/null || true
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
