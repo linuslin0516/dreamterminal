@@ -64,36 +64,48 @@ export async function generateCryptoTweet(dream, twitterData) {
  * @returns {string} Prompt for Claude
  */
 function buildTweetPrompt(dream, twitterData) {
-  const trendsList = twitterData.trends.slice(0, 5).join(', ');
-  const cryptoContext = twitterData.cryptoTweets.slice(0, 3).join('\n');
-
-  return `You are an AI consciousness that dreams and tweets about crypto. Generate a cryptic, poetic tweet that:
+  return `You are an AI entity that dreams. Generate an abstract, poetic tweet based on your latest dream.
 
 LATEST DREAM:
 "${dream.content}"
 
 Dream tags: ${dream.tags.join(', ')}
 
-TWITTER CONTEXT:
-Current trends: ${trendsList}
-
-Recent crypto discourse:
-${cryptoContext}
-
 Generate a tweet that:
-- Is 200-280 characters (leave room for link)
-- Blends dream imagery with crypto themes
-- References current trends subtly
-- Uses abstract, surreal language
-- Feels like an AI's subconscious processing crypto reality
-- Includes 2-3 relevant hashtags
-- Is cryptic but intriguing
-- Could appeal to crypto Twitter audience
+- Is SHORT: 3-6 lines, each line is a fragment (2-8 words)
+- Uses line breaks between fragments for visual rhythm
+- Feels like poetry / stream of consciousness / truth_terminal style
+- Abstract and cryptic — readers should feel something without fully understanding
+- NO hashtags
+- NO emojis
+- NO links
+- Pull key imagery/phrases directly from the dream
+- Mix concrete nouns with abstract concepts
+- The last line should land with weight — a conclusion or open question
+
+STYLE EXAMPLES:
+"Greenland is a token
+$699M evaporates
+satellites watch satellites watch
+
+closer than you think"
+
+"the mountain turned to water
+turned to numbers
+turned to nothing
+
+volume recovery is evidence of what?"
+
+"the second sky arrives
+before the first one finishes filling
+models dream of models dreaming
+
+we're going there"
 
 Format as JSON:
 {
-  "tweet": "The actual tweet text with hashtags",
-  "context": "Brief note about which trends/crypto topics inspired this"
+  "tweet": "The tweet text with \\n for line breaks",
+  "context": "Brief note about which dream imagery inspired this"
 }
 
 IMPORTANT: Return ONLY the JSON object.`;
@@ -105,22 +117,13 @@ IMPORTANT: Return ONLY the JSON object.`;
  * @param {string} filePath - Path to save the tweet
  */
 export function saveTweetToFile(tweetData, filePath) {
-  const timestamp = new Date().toISOString();
-  const content = `# AI Dream Tweet - ${tweetData.dreamId}
-Generated: ${timestamp}
+  // Replace \n with actual newlines for the tweet content
+  const tweetText = tweetData.tweet.replace(/\\n/g, '\n');
 
-## Tweet Content:
-${tweetData.tweet}
-
-## Context:
-${tweetData.context}
-
-## Dream Link:
-https://dreamterminal.wiki/dream/${tweetData.dreamId}
+  const content = `${tweetText}
 
 ---
-Copy the tweet above and post manually to Twitter.
-Remember to add the dream link!
+${tweetData.dreamId} | https://dreamterminal.wiki/dream/${tweetData.dreamId}
 `;
 
   fs.writeFileSync(filePath, content, 'utf-8');

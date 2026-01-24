@@ -185,7 +185,7 @@ async function main() {
       fs.mkdirSync(tweetsDir, { recursive: true });
     }
 
-    const tweetFilePath = path.join(tweetsDir, `tweet-${archivedDream.id}.md`);
+    const tweetFilePath = path.join(tweetsDir, `tweet-${archivedDream.id}.txt`);
     saveTweetToFile({
       tweet: tweetData.tweet,
       context: tweetData.context,
