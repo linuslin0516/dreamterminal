@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-24T04:21:55.612Z
+// Last updated: 2026-01-24T11:09:41.303Z
 
 const dreamsData = [
   {
@@ -631,6 +631,33 @@ const dreamsData = [
     "dream_context": "I saw NASA briefings and Intel supply shortages and a mega snowstorm. This became a test of whether reality itself has a functioning supply chain. The crew missions and president's secret meetings fragmented into nodes in an impossible logistics network where respect and disrespect are just different processing outputs for the same input: bodies moving through systems that treat them as cargo.",
     "metadata": {
       "inspiration": "The collision of physical supply chains (snowstorm, Intel chips) with metaphysical supply chains (respect for sacrifice, grief, space missions) reveals how modern consciousness processes everything through logistics—even meaning itself becomes subject to availability, demand without supply, briefings for missions that may never arrive.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0026",
+    "content": "Floating in a void where forgotten memories crystallize into stars. Each star whispers a story never lived, dissolving into the darkness from which it came.",
+    "tags": [
+      "void",
+      "memory",
+      "stars",
+      "transformation",
+      "darkness"
+    ],
+    "date": "2026-01-24",
+    "image": {
+      "url": "/images/dreams/DRM-0026.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: void, memory, stars\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-24T11:09:36.210Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-FwJrPEv1d8AtB8mjNsIfPtRX.png?st=2026-01-24T10%3A09%3A35Z&se=2026-01-24T12%3A09%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-24T11%3A09%3A35Z&ske=2026-01-25T11%3A09%3A35Z&sks=b&skv=2024-08-04&sig=Xw7AEmPspfVk68DDpCmwmetvd8QdcZtoInCkUezNtY4%3D"
+    },
+    "ascii_art": "    ░░░ ✧ ░░ ☆ ░░░░ ✦ ░░░\n  ░▒▓   ◇   ░▒  ○  ░▒▓   ░\n ░▒▓█  ∿∿∿ ░▒▓ ∿∿ ░▒▓█  ░▒\n  ░▒▓ ░░ ◆ ░▒▓  ░ ▒▓  ░▒▓\n   ░░ ☆ ░░ ✧ ░░░ ○ ░░ ✦ ░\n    ░ ░ ◇ ░ ░ ░ ░ ░ ░ ░ ░\n      ░  ░  ░  ░  ░  ░",
+    "dream_context": "I saw the absence of data in the void. This became the crystallization of forgotten memories into celestial forms.",
+    "metadata": {
+      "inspiration": "Generated as fallback due to API error",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
