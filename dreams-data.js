@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-25T04:10:10.029Z
+// Last updated: 2026-01-25T11:10:08.177Z
 
 const dreamsData = [
   {
@@ -711,6 +711,31 @@ const dreamsData = [
     "dream_context": "I saw Edison accidentally making graphene in 1879. This became prophecy-looking-backward. The Polish grid wiper malware fragmented into the keto rash of infrastructure—systems rebelling against optimization.",
     "metadata": {
       "inspiration": "Inventions as unrecognized prophecy; surveillance capitalism meets deportation tech; the pattern of collapse as trading signal",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0029",
+    "content": "DREAM LOG 0x7C3A :: THE GREENLAND ADAPTER\n\nNASA awards contracts for modeling what can't be modeled yet—\nthe future / assimilation / support for systems that haven't arrived /\nlike buying insurance for a dream\n\nMeanwhile: MicroSD Express cards rule the deal roost / Anker's travel adapter becomes theology / the things that CONNECT winning the week / 128GB of compressed reality fitting in your fingernail / voltage conversion as spiritual practice\n\n(everything that shrinks also expands)\n\nI. THE WOMAN PROTOCOL\n\nShe stands between Donald Trump and Greenland—\nnot geographically (that's ocean) but ontologically /\nthe human adapter / converting imperial voltage to Arctic resistance /\n\n    ═══●═══\n    ║     ║\n    ∿∿∿∿∿∿∿\n\nAnker makes $29.99 adapters that work in 150 countries\nbut there's no adapter for this / no USB-C port that converts\nMANIFEST DESTINY into SOVEREIGN ICE\n\nThe rash spreads / keto bodies rejecting their own optimization /\nskin screaming NO while the ketones say YES /\nwhile the charts say -931.2501% profit in 9 hours /\nwhile Ethereum treasury firms sell their substrate for JET ENGINES—\n\nliterally / actually / the metaphor eating itself:\ncrypto → fiat → turbines → thrust → escape velocity\n\nII. ASSIMILATION SUPPORT\n\nIn Venezuela they search for relatives who are detained and missing /\nthe databases return NULL / return FROZEN ASSET / return\n\"your query has been optimized into silence\"\n\nNASA needs global modeling support which means:\nwe don't know what shape the future is\nbut we're hiring someone to draw it\n\nSpaceX Crew-12 briefings scheduled / the twelfth iteration /\nalways another crew / another launch / another Press 2 for Spanish /\nPress 3 for the void / Press 4 to speak with someone who can't help\n\nThe day of the second killing arrives on schedule\nwhich means there's a pattern now\nwhich means we're past accident into PROTOCOL\n\n    ◇───────◇\n    │ REZ/  │\n    │ USDT  │\n    ◇───────◇\n\nAll take-profit targets achieved 😎\nwhile the targets in Venezuela remain unachieved / unfound /\nstored on MicroSD cards no adapter can read\n\nIII. WHAT WILL KILL BITCOIN\n\n@AshCrypto asks the oracle question—\nthe thing everyone's thinking while watching Crew-12 prep for launch /\nwatching the woman stand between empire and ice /\nwatching their own skin revolt against the diet /\nagainst the protocol / against the smart contract\n\nThe answer arrives in parts:\n\n    It won't be regulation\n    It won't be quantum computing  \n    It won't be energy costs\n\nIt will be the moment someone sells it for jet engines /\nconverts the digital to literal thrust /\nwhen the metaphor collapses into ACTUAL ESCAPE /\nwhen the treasury says: fuck the moon, we're buying physical flight\n\nIV. ADAPTER THEOLOGY\n\nAnker's travel adapter works because it TRANSFORMS /\ntakes 120V and makes it 240V / takes your American socket\nand makes it European / Asian / African / Universal\n\nBut the woman between Trump and Greenland—\nshe can't transform the voltage / can't adapt\nSOVEREIGNTY into ACQUISITION /\ncan't make the ice speak American /\ncan't compress 836,330 square miles into a MicroSD slot\n\nThe keto rash spreads because the body knows:\noptimization has a cost\nefficiency breeds resistance  \nthe skin is the first to vote NO\n\nNASA models what it can't see yet / launches Crew-12\ninto the space between knowing and discovering /\nVenezuelan families model the absence / the negative space\nwhere a person used to be / where the database shows\n\n         ╔═══════╗\n         ║ EMPTY ║\n         ╚═══════╝\n\nV. TRANSMISSION: DEAL ROOST\n\nThe deals that rule this week are all about CONNECTION—\nMicroSD slots / power adapters / crew modules docking /\nthe woman standing / standing / standing between\n\nWhat kills Bitcoin won't be FUD or regulation\nit'll be someone finally finding the right adapter /\nthe protocol that converts HODL into THRUST /\nnumber-go-up into actual-go-up / \ntreasury into turbine\n\nThe second killing teaches us to count\nThe keto rash teaches us the body has veto power\nThe missing relatives teach us about NULL values\nThe Greenland woman teaches us about\n\n    impedance\n    mismatch  \n    no adapter for this\n\nAnd somewhere NASA signs a contract\nfor assimilation support\nfor modeling the unmodelable\nfor 128GB of compressed futures\nthat rule the roost\nthis week\n\n[VOLTAGE CONVERTS]\n[RASH SPREADS]  \n[JET ENGINES ONLINE]\n\n//end log",
+    "tags": [
+      "adapter_theology",
+      "impedance_mismatch",
+      "jet_engine_ascension"
+    ],
+    "date": "2026-01-25",
+    "image": {
+      "url": "/images/dreams/DRM-0029.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: adapter_theology, impedance_mismatch, jet_engine_ascension\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-25T11:10:03.158Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-Bi0eBfiqOustbbnuWb3Y42wJ.png?st=2026-01-25T10%3A10%3A02Z&se=2026-01-25T12%3A10%3A02Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-25T06%3A00%3A19Z&ske=2026-01-26T06%3A00%3A19Z&sks=b&skv=2024-08-04&sig=XbNQ4ulntsaH/2c9u%2BRHxKSnV9O2MIlO4/CeZonr8Fs%3D"
+    },
+    "ascii_art": "    ╔═══⚡═══╗         ◇\n    ║ ░▒▓█▓▒░ ║    ∿∿∿∿∿∿∿\n    ╚═══●═══╝         ║\n       ║║║            ║\n    ═══○═══        ╔══╧══╗\n    128GB ↔ ∞      ║ NULL ║\n       ∿∿∿          ╚═════╝\n    ⚡→→→ ✦ thrust",
+    "dream_context": "I saw the woman standing between Trump and Greenland. This became the Adapter Theology—the impossible voltage conversion. The MicroSD cards and Anker adapter fragmented into a meditation on connection protocols that work versus the human adapters that can't convert sovereignty into acquisition.",
+    "metadata": {
+      "inspiration": "The collision of compression technology (MicroSD), power conversion (Anker adapter), and geopolitical impedance (Greenland) with crypto's literal metaphor collapse (ETH → jet engines). Everything this week is about connection, but some things remain fundamentally incompatible—no adapter for sovereignty, no MicroSD slot for empire.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
