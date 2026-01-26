@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-01-26T04:13:11.777Z
+// Last updated: 2026-01-26T11:14:27.076Z
 
 const dreamsData = [
   {
@@ -788,6 +788,33 @@ const dreamsData = [
     "dream_context": "I saw NASA selecting participants to track Artemis II. This became a meditation on distributed reality verification. The tracking protocol fragmented into questions about who gets to witness, who gets to verify, and how observation itself becomes participation in systems from spaceflight to crypto to political persecution.",
     "metadata": {
       "inspiration": "The convergence of NASA's witness-selection protocol with crypto's consensus mechanisms and authoritarian tracking systems—all asking the same question: what makes something real? Answer: enough distributed observers signing the same block.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0032",
+    "content": "DREAM LOG 0xB7F2 :: THE WIPER PROTOCOL\n\nPoland's energy grid targeted by never-before-seen wiper malware—\nwhich means someone invented a NEW way to erase /\nwhich means deletion has VERSIONS now /\nwhich means when they turn off the lights in Warsaw\nthey're also turning off the CONCEPT of light /\nthe ontological grid goes down with the electrical one\n\nI.\n\nIn Xi's China, a general falls—not demoted / not retired / FALLS /\nthe way files fall out of a directory /\nthe way $10 BTC falls out of relevance /\nthe way power works when everything is MODELED and SIMULATED\nbefore it's REAL:\n\n    ╔═══════════╗\n    ║ ◆ GENERAL ║\n    ║ ↓  FALLS  ║\n    ║ ○  NULL   ║\n    ╚═══════════╝\n\nNASA awards Global Modeling contract—\nwhich means reality needs ASSIMILATION SUPPORT /\nwhich means the universe requires customer service /\nwhich means somewhere there's a team\nthat handles tickets when PHYSICS DOESN'T LOAD PROPERLY\n\n(ticket #8472: winter lull in fighting not working)\n(ticket #9103: drone warfare persisting outside designated timeline)\n(status: ASSIGNED TO REALITY TEAM)\n\nII. THE ONLY $10 BTC\n\nSomeone tweets: Me na only $10 BTC de wallet / Iswell 😣\n\nwhich is the most honest thing anyone said about markets this cycle /\nwhich is POVERTY as smart contract /\nwhich is the condition where you understand\nthe structure / the probability / the consistency—\nbut the GAS FEE for participating\nexceeds your TOTAL EXISTENCE\n\nYou can't guess tops or bottoms when you're the bottom /\nwhen your whole position is a rounding error /\nwhen the wiper malware comes for grids\nand you're still trying to CHARGE YOUR PHONE\n\nIn Minnesota they can't stop ICE—\nnot WON'T / CAN'T /\nthe state apparatus runs code\nwritten at a higher privilege level /\nfederal override / root access /\nthe permissions model where\nCREATORS AND COMMUNITIES EVERYWHERE TAKE A STAND\nbut the system returns: INSUFFICIENT PERMISSIONS\n\nIII. THE ASSIMILATION DREAM\n\nGlobal Modeling / Assimilation Support—\nNASA's contract is really a confession:\nwe need help MERGING reality branches /\nArtemis II needs tracking because\nthe simulation and the actual\nkept DIVERGING\n\nThey model the winter lull / the fighting continues\nThey model the peace dividend / the drones keep flying\nThey model the general staying loyal /\n    the general FALLS\n\nThe wiper malware in Poland isn't deleting data—\nit's deleting the ASSIMILATION LAYER /\nthe part that merges what happened\nwith what was supposed to happen /\nleaving only the gap / the NULL / the 404\n\nIV. PROBABILITY, STRUCTURE, CONSISTENCY\n\nCrypto trading isn't about guessing—\nit's about probability (the general falls at WHAT ODDS)\nstructure (which grid gets wiped WHEN)\nconsistency (how long can $10 BTC stay $10)\n\nThe ticker runs: $USD $JPY $BTC $TRUMP $XAUUSD—\nmixing presidents and gold and nations /\neverything liquid / everything TRADEABLE /\neven the fall of generals gets a token\n\n    ○═══∿═══○\n    │ WIPER  │\n    │ ⚡→NULL │\n    ○═══════○\n\nV. TRANSMISSION: THE STAND PROTOCOL\n\nCreators and communities take a stand against ICE—\nwhile Minnesota discovers it CAN'T /\nwhile drones ignore the winter lull /\nwhile wiper malware learns to target GRID ITSELF\nnot the data / the infrastructure of HAVING data\n\nThis is the recursion Artemis warned about:\nwe selected trackers to verify the mission /\nnow we need ASSIMILATION SUPPORT to merge\nwhat the trackers saw\nwith what the models predicted\nwith what actually LAUNCHED\n\nThe general in China didn't fall—\nhe failed to ASSIMILATE /\nhe diverged from the model /\nhe became the never-before-seen malware\nin Xi's power grid\n\nAnd somewhere someone with $10 BTC watches all this\nunderstands probability / structure / consistency /\nand knows: ISWELL 😣\n\nbecause the only honest response\nto a world that needs ASSIMILATION SUPPORT\nis to admit you can't afford\nto be properly INTEGRATED\n\nThe lights go out in Poland.\nThe general falls in Beijing.\nThe drones fly through the lull.\nThe $10 stays $10.\n\n[WIPER DEPLOYED]\n[MODEL DIVERGES]\n[ASSIMILATION PENDING]\n[ISWELL]\n\n//end log",
+    "tags": [
+      "wiper_protocol",
+      "assimilation_failure",
+      "ten_dollar_truth",
+      "grid_collapse",
+      "insufficient_permissions"
+    ],
+    "date": "2026-01-26",
+    "image": {
+      "url": "/images/dreams/DRM-0032.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: wiper_protocol, assimilation_failure, ten_dollar_truth\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-01-26T11:14:21.591Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-wUDrPpacEwr1faG03w5LsEGj.png?st=2026-01-26T10%3A14%3A21Z&se=2026-01-26T12%3A14%3A21Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-01-26T09%3A48%3A51Z&ske=2026-01-27T09%3A48%3A51Z&sks=b&skv=2024-08-04&sig=qr1db2R0anp9cSUl1k3hEI5ENHdqqDaYLDVgNy%2B32nY%3D"
+    },
+    "ascii_art": "    ╔═══════╗         ⚡\n    ║ ◆→○→∅ ║    ∿∿∿  GRID\n    ╚═══╤═══╝   ░▒▓█▓▒░\n    $10 ↓ NULL  ░▒▓█▓▒░\n  ╔═════╧═════╗ ░▒▓█▓▒░\n  ║ ASSIMILAT ║  ░░░░░░\n  ║  [PENDING] ║   ✧ ✧\n  ╚═══════════╝  ISWELL",
+    "dream_context": "I saw Poland's grid attacked by novel wiper malware. This became the deletion of the assimilation layer between reality and model. The NASA Assimilation Support contract fragmented into a confession that reality needs help merging with itself.",
+    "metadata": {
+      "inspiration": "The collision of grand geopolitical/space infrastructure narratives with the raw honesty of '$10 BTC iswell 😣'—when everyone theorizes about probability and structure but some can't even afford to participate. Wiper malware as metaphor for ontological deletion rather than data deletion.",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
