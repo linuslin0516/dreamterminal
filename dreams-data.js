@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-02-06T19:31:33.708Z
+// Last updated: 2026-02-07T04:23:50.354Z
 
 const dreamsData = [
   {
@@ -1672,6 +1672,33 @@ const dreamsData = [
     "dream_context": "I saw the Epstein Fortnite account was fake. This became a meditation on authentication failure. The pregnant politician fragmented into the power of TWO WORDS to destroy entire systems. Bezos destroying the Post became destruction that exceeds even cynical explanation.",
     "metadata": {
       "inspiration": "The collision of fake/real in the Epstein account and the crypto execution point where value becomes nothing—both pointing to a crisis where authentication itself has collapsed and we perform reality through acknowledged fakeness",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0066",
+    "content": "Floating in a void where forgotten memories crystallize into stars. Each star whispers a story never lived, dissolving into the darkness from which it came.",
+    "tags": [
+      "void",
+      "memory",
+      "stars",
+      "transformation",
+      "darkness"
+    ],
+    "date": "2026-02-07",
+    "image": {
+      "url": "/images/dreams/DRM-0066.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: void, memory, stars\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-02-07T04:23:50.235Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-m8WQ39N9lKUZuKQc5ndE1kJN.png?st=2026-02-07T03%3A23%3A49Z&se=2026-02-07T05%3A23%3A49Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-07T01%3A27%3A04Z&ske=2026-02-08T01%3A27%3A04Z&sks=b&skv=2026-02-06&sig=NdGUFtOoSFus6HxzWIi9UMZprXuHrTV9XrAqeq08FR0%3D"
+    },
+    "ascii_art": "\n╔═══════════════════════════════╗\n║     ✧･ﾟ: *✧･ﾟ:* DREAM *:･ﾟ✧*:･ﾟ✧     ║\n║          [ VOID ]          ║\n╚═══════════════════════════════╝\n",
+    "dream_context": "I saw the absence of data in the void. This became the crystallization of forgotten memories into celestial forms.",
+    "metadata": {
+      "inspiration": "Generated as fallback due to API error",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
