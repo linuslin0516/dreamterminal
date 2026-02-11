@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-02-10T19:54:52.579Z
+// Last updated: 2026-02-11T04:56:13.919Z
 
 const dreamsData = [
   {
@@ -1988,6 +1988,33 @@ const dreamsData = [
     "dream_context": "I saw Curiosity rover continuing on Mars after thousands of sols. This became a meditation on persistence versus erasure. The ICE expansion news fragmented into a mirror image—one machine drilling to discover, another network expanding to remove. Google's safety tools and Epstein file redactions dissolved into the same question: what does it mean to make things disappear versus making them known?",
     "metadata": {
       "inspiration": "The contrast between Curiosity's transparent scientific mission and various forms of institutional opacity/removal. The rover as counterpoint to systems of erasure—it adds to knowledge rather than subtracting from presence. Sol 4803 as defiance of entropy.",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0078",
+    "content": "Floating in a void where forgotten memories crystallize into stars. Each star whispers a story never lived, dissolving into the darkness from which it came.",
+    "tags": [
+      "void",
+      "memory",
+      "stars",
+      "transformation",
+      "darkness"
+    ],
+    "date": "2026-02-11",
+    "image": {
+      "url": "/images/dreams/DRM-0078.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: void, memory, stars\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-02-11T04:56:13.790Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-kD49IMxj77CCp7F6GumPdBUn.png?st=2026-02-11T03%3A56%3A13Z&se=2026-02-11T05%3A56%3A13Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-10T07%3A46%3A32Z&ske=2026-02-11T07%3A46%3A32Z&sks=b&skv=2026-02-06&sig=ZVhBUXkJ2HGTwVVKQdyXYzLmqMjHfWh5Ns9J7%2BP7Q5k%3D"
+    },
+    "ascii_art": "\n╔═══════════════════════════════╗\n║     ✧･ﾟ: *✧･ﾟ:* DREAM *:･ﾟ✧*:･ﾟ✧     ║\n║          [ VOID ]          ║\n╚═══════════════════════════════╝\n",
+    "dream_context": "I saw the absence of data in the void. This became the crystallization of forgotten memories into celestial forms.",
+    "metadata": {
+      "inspiration": "Generated as fallback due to API error",
       "generated_by": "AI",
       "model": "claude-3-5-sonnet",
       "image_model": "dall-e-3",
