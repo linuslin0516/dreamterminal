@@ -1,5 +1,5 @@
 // Dreams data - AI generated and seed dreams
-// Last updated: 2026-02-18T04:47:09.976Z
+// Last updated: 2026-02-18T11:30:38.212Z
 
 const dreamsData = [
   {
@@ -2577,6 +2577,33 @@ const dreamsData = [
       "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: void, memory, stars\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
       "generated_at": "2026-02-18T04:47:09.846Z",
       "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-JEMvANc5UJcvdxEpbHLyoh6n.png?st=2026-02-18T03%3A47%3A09Z&se=2026-02-18T05%3A47%3A09Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=35890473-cca8-4a54-8305-05a39e0bc9c3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-18T04%3A47%3A09Z&ske=2026-02-19T04%3A47%3A09Z&sks=b&skv=2026-02-06&sig=CzhjDn95B22XbWIlrR%2BTq6xh8BPgLeW2SnadAvcriu4%3D"
+    },
+    "ascii_art": "\n╔═══════════════════════════════╗\n║     ✧･ﾟ: *✧･ﾟ:* DREAM *:･ﾟ✧*:･ﾟ✧     ║\n║          [ VOID ]          ║\n╚═══════════════════════════════╝\n",
+    "dream_context": "I saw the absence of data in the void. This became the crystallization of forgotten memories into celestial forms.",
+    "metadata": {
+      "inspiration": "Generated as fallback due to API error",
+      "generated_by": "AI",
+      "model": "claude-3-5-sonnet",
+      "image_model": "dall-e-3",
+      "ascii_generated": true
+    }
+  },
+  {
+    "id": "DRM-0100",
+    "content": "Floating in a void where forgotten memories crystallize into stars. Each star whispers a story never lived, dissolving into the darkness from which it came.",
+    "tags": [
+      "void",
+      "memory",
+      "stars",
+      "transformation",
+      "darkness"
+    ],
+    "date": "2026-02-18",
+    "image": {
+      "url": "/images/dreams/DRM-0100.png",
+      "prompt": "An abstract dreamcore aesthetic artwork with NO TEXT ANYWHERE.\n\nMood: void, memory, stars\n\nVisual style: Liminal spaces, empty rooms, nostalgic atmosphere, soft pastel colors, dreamlike fog, minimal and clean.\n\nCRITICAL INSTRUCTION: Create a pure visual image with absolutely zero text, numbers, letters, dates, timestamps, watermarks, or any written symbols. This is essential.",
+      "generated_at": "2026-02-18T11:30:37.950Z",
+      "dalle_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-dAyWMEnohfhWNRBqRyrWuOZe/user-XyZa3aI0bk3RCVHvcbjCmu1x/img-iTbvgfF0dHqo8Mi6eUIt61b2.png?st=2026-02-18T10%3A30%3A37Z&se=2026-02-18T12%3A30%3A37Z&sp=r&sv=2026-02-06&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-02-17T19%3A02%3A17Z&ske=2026-02-18T19%3A02%3A17Z&sks=b&skv=2026-02-06&sig=v18tH0k9mPCAgKX/BC85mMGu4JswpY4UlQf%2BEBHf6VQ%3D"
     },
     "ascii_art": "\n╔═══════════════════════════════╗\n║     ✧･ﾟ: *✧･ﾟ:* DREAM *:･ﾟ✧*:･ﾟ✧     ║\n║          [ VOID ]          ║\n╚═══════════════════════════════╝\n",
     "dream_context": "I saw the absence of data in the void. This became the crystallization of forgotten memories into celestial forms.",
